@@ -1,0 +1,26 @@
+2024/01/25-06:46:28.417 256f Reusing MANIFEST /home/irene/.config/google-chrome/Default/IndexedDB/https_outlook.office365.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/25-06:46:28.417 256f Recovering log #25
+2024/01/25-06:46:28.417 256f Reusing old log /home/irene/.config/google-chrome/Default/IndexedDB/https_outlook.office365.com_0.indexeddb.leveldb/000025.log 
+2024/01/25-06:46:28.418 256f Delete type=2 #24
+2024/01/25-06:46:43.837 2572 Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/01/25-06:46:43.839 256f Level-0 table #30: started
+2024/01/25-06:46:43.841 256f Level-0 table #30: 777 bytes OK
+2024/01/25-06:46:43.844 256f Delete type=0 #25
+2024/01/25-06:46:43.844 256f Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0b\x00\x00\x05' @ 274 : 1
+2024/01/25-06:46:43.844 256f Compacting 1@0 + 1@1 files
+2024/01/25-06:46:43.847 256f Generated table #31@0: 39 keys, 7160 bytes
+2024/01/25-06:46:43.847 256f Compacted 1@0 + 1@1 files => 7160 bytes
+2024/01/25-06:46:43.850 256f compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/25-06:46:43.850 256f Delete type=2 #30
+2024/01/25-06:46:43.850 256f Manual compaction at level-0 from '\x00\x0b\x00\x00\x05' @ 274 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/01/25-06:48:57.857 256f Level-0 table #33: started
+2024/01/25-06:48:57.859 256f Level-0 table #33: 1259 bytes OK
+2024/01/25-06:48:57.862 256f Delete type=0 #29
+2024/01/25-06:48:57.862 256f Delete type=2 #27
+2024/01/25-06:48:57.862 256f Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0c\x00\x00\x05' @ 309 : 1
+2024/01/25-06:48:57.862 256f Compacting 1@0 + 1@1 files
+2024/01/25-06:48:57.864 256f Generated table #34@0: 40 keys, 7187 bytes
+2024/01/25-06:48:57.864 256f Compacted 1@0 + 1@1 files => 7187 bytes
+2024/01/25-06:48:57.866 256f compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/25-06:48:57.867 256f Delete type=2 #33
+2024/01/25-06:48:57.867 256f Manual compaction at level-0 from '\x00\x0c\x00\x00\x05' @ 309 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,11 @@
+# NetSurf cookies file.
+#
+# Lines starting with a '#' are comments, blank lines are ignored.
+#
+# All lines prior to "Version:	102" are discarded.
+#
+# Version	Domain	Domain from Set-Cookie	Path	Path from Set-Cookie	Secure	HTTP-Only	Expires	Last used	No destroy	Name	Value	Value was quoted	Scheme	URL	Comment
+Version:	102
+0	.google.co.uk	1	/	1	1	0	1708176227	0	0	1P_JAR	2024-01-18-13	0	unused	unused	
+0	.google.co.uk	1	/	1	1	1	1721136098	1705584242	0	AEC	Ae3NU9O33N8opI5yLmYRwOXRw0hlXbn1CX8LJ12jqWvQgxBJAUkRSaaw9IE	0	unused	unused	
+0	.google.co.uk	1	/	1	0	1	1721395298	1705584242	0	NID	511=GPNTTV6X0lEV1nJfapJUrof3cxB375k-SNUhcVFIq0iR1HMSrRtm_jjQM1G85zSFeyYynxW8fJvpQwI0JO-jYWdAn_TaCllpLDXY17Rg_PfQHe_G50RTW-6Oh0mGG4DtodthNHdB2vs03nVrA633HVtWIyTJZH6cC0cmU0Wotgk	0	unused	unused	

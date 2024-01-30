@@ -1,0 +1,936 @@
+2024-01-14 19:01:14.825 [info] Extension host with pid 431668 started
+2024-01-14 19:01:14.861 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-14 19:01:14.893 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-01-14 19:01:15.365 [info] ExtensionService#_doActivateExtension virgilsisoe.python-auto-import, startup: false, activationEvent: 'onLanguage:python'
+2024-01-14 19:01:15.560 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-14 19:01:15.644 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-14 19:01:15.762 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-14 19:01:15.872 [info] Eager extensions activated
+2024-01-14 19:01:15.995 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-14 19:01:15.999 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-14 19:01:16.034 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2024-01-14 19:01:16.152 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-01-14 19:01:16.577 [error] Activating extension GitHub.vscode-pull-request-github failed due to an error:
+2024-01-14 19:01:16.578 [error] Error: Extension 'GitHub.vscode-pull-request-github' CANNOT use API proposal: readonlyMessage.
+Its package.json#enabledApiProposals-property declares:  but NOT readonlyMessage.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at v (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:48007)
+	at v.registerFileSystemProvider (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:20533)
+	at Object.registerFileSystemProvider (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:38166)
+	at M2 (/home/irene/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2242:8320)
+	at async I2 (/home/irene/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2242:5740)
+	at async u.n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:6255)
+	at async u.m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:6218)
+	at async u.l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:5675)
+2024-01-14 19:01:16.594 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at v (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:48007)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:23805)
+	at w.activate (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:795716)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2455
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2445)
+2024-01-14 19:01:39.917 [info] Extension host terminating: renderer closed the MessagePort
+2024-01-14 19:01:39.936 [error] Canceled: Canceled
+	at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at f.I [as value] (/usr/lib/code/extensions/git/dist/main.js:2:924696)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:940613)
+	at /usr/lib/code/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/usr/lib/code/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-01-14 19:01:39.938 [error] Canceled: Canceled
+	at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at set b [as b] (/usr/lib/code/extensions/github/dist/extension.js:2:322364)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:323005
+	at f.value (/usr/lib/code/extensions/git/dist/main.js:2:1016450)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:940613)
+	at /usr/lib/code/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/usr/lib/code/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-01-14 19:01:39.944 [info] Extension host with pid 431668 exiting with code 0
+2024-01-14 19:01:41.883 [info] Extension host with pid 432207 started
+2024-01-14 19:01:41.883 [info] Skipping acquiring lock for /home/irene/.config/Code - OSS/User/workspaceStorage/a9c8a02bd3e405d159836bf86997c971.
+2024-01-14 19:01:42.179 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-14 19:01:42.401 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-14 19:01:42.519 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-14 19:01:42.693 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-14 19:01:42.832 [info] Eager extensions activated
+2024-01-14 19:01:43.109 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-14 19:01:43.112 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-14 19:01:43.148 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2024-01-14 19:01:43.359 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-01-14 19:01:43.942 [error] Activating extension GitHub.vscode-pull-request-github failed due to an error:
+2024-01-14 19:01:43.942 [error] Error: Extension 'GitHub.vscode-pull-request-github' CANNOT use API proposal: readonlyMessage.
+Its package.json#enabledApiProposals-property declares:  but NOT readonlyMessage.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at v (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:48007)
+	at v.registerFileSystemProvider (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:20533)
+	at Object.registerFileSystemProvider (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:38166)
+	at M2 (/home/irene/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2242:8320)
+	at async I2 (/home/irene/.vscode-oss/extensions/github.vscode-pull-request-github-0.78.1-universal/dist/extension.js:2242:5740)
+	at async u.n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:6255)
+	at async u.m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:6218)
+	at async u.l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:5675)
+2024-01-14 19:01:45.943 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-01-14 19:01:46.352 [info] ExtensionService#_doActivateExtension virgilsisoe.python-auto-import, startup: false, activationEvent: 'onLanguage:python'
+2024-01-14 19:01:47.516 [error] [ms-python.python] provider FAILED
+2024-01-14 19:01:47.517 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:01:47.587 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at v (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:48007)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:23805)
+	at w.activate (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:795716)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2455
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2445)
+2024-01-14 19:01:47.614 [error] [ms-python.python] provider FAILED
+2024-01-14 19:01:47.614 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:01:47.616 [error] [ms-python.python] provider FAILED
+2024-01-14 19:01:47.616 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:01:55.324 [error] [ms-python.python] provider FAILED
+2024-01-14 19:01:55.324 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:02:37.579 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-01-14 19:02:42.217 [error] [ms-python.python] provider FAILED
+2024-01-14 19:02:42.217 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:02:45.411 [error] [ms-python.python] provider FAILED
+2024-01-14 19:02:45.412 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:02:45.675 [error] [ms-python.python] provider FAILED
+2024-01-14 19:02:45.675 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:02:47.344 [error] [ms-python.python] provider FAILED
+2024-01-14 19:02:47.344 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:02:52.138 [error] [ms-python.python] provider FAILED
+2024-01-14 19:02:52.138 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:04:36.067 [error] [ms-python.python] provider FAILED
+2024-01-14 19:04:36.067 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:04:48.401 [error] [ms-python.python] provider FAILED
+2024-01-14 19:04:48.402 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:04:52.287 [error] [ms-python.python] provider FAILED
+2024-01-14 19:04:52.287 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:04:52.291 [error] [ms-python.python] provider FAILED
+2024-01-14 19:04:52.291 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:04:55.858 [error] [ms-python.python] provider FAILED
+2024-01-14 19:04:55.858 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:04:55.860 [error] [ms-python.python] provider FAILED
+2024-01-14 19:04:55.860 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:04:57.136 [error] [ms-python.python] provider FAILED
+2024-01-14 19:04:57.136 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:04:57.406 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-01-14 19:04:57.429 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-01-14 19:04:58.839 [error] [ms-python.python] provider FAILED
+2024-01-14 19:04:58.839 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:04:58.842 [error] [ms-python.python] provider FAILED
+2024-01-14 19:04:58.842 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:04:59.602 [error] [ms-python.python] provider FAILED
+2024-01-14 19:04:59.602 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:02.749 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:02.750 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:03.000 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:03.000 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:04.817 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:04.818 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:06.104 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:06.104 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:06.378 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:06.378 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:09.530 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:09.530 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:09.804 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:09.804 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:10.349 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:10.350 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:10.624 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:10.624 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:14.120 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:14.120 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:14.395 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:14.396 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:16.256 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:16.256 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:16.530 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:16.530 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:16.944 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:16.944 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:17.222 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:17.222 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:17.864 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:17.864 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:18.137 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:18.138 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:18.539 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:18.540 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:19.269 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:19.269 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:19.558 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:19.558 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:20.225 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:20.225 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:21.025 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:21.025 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:21.299 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:21.332 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:21.713 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:21.713 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:22.078 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:22.078 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:22.351 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:22.351 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:22.740 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:22.740 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:23.073 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:23.074 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:23.347 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:23.347 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:24.369 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:24.369 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:24.644 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:24.644 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:25.447 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:25.447 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:26.368 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:26.368 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:26.643 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:26.643 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:27.571 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:27.572 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:27.846 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:27.846 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:34.700 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:34.700 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:36.803 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:36.803 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:37.540 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:37.540 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:37.902 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:37.902 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:38.176 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:38.176 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:38.991 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:38.991 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:39.265 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:39.265 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:41.144 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:41.144 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:41.418 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:41.418 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:41.899 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:41.899 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:42.172 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:42.172 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:42.417 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:42.417 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:42.685 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:42.685 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:42.978 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:42.978 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:43.577 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:43.577 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:44.195 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:44.195 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:44.506 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:44.506 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:44.782 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:44.782 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:05:45.056 [error] [ms-python.python] provider FAILED
+2024-01-14 19:05:45.057 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:06:11.749 [error] [ms-python.python] provider FAILED
+2024-01-14 19:06:11.749 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:06:12.072 [error] [ms-python.python] provider FAILED
+2024-01-14 19:06:12.073 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:06:13.197 [error] [ms-python.python] provider FAILED
+2024-01-14 19:06:13.197 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:06:13.471 [error] [ms-python.python] provider FAILED
+2024-01-14 19:06:13.471 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:06:14.995 [error] [ms-python.python] provider FAILED
+2024-01-14 19:06:14.995 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:06:15.037 [error] [ms-python.python] provider FAILED
+2024-01-14 19:06:15.037 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:06:15.601 [error] [ms-python.python] provider FAILED
+2024-01-14 19:06:15.602 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:06:15.876 [error] [ms-python.python] provider FAILED
+2024-01-14 19:06:15.876 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:06:38.097 [error] [ms-python.python] provider FAILED
+2024-01-14 19:06:38.098 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:06:45.094 [error] [ms-python.python] provider FAILED
+2024-01-14 19:06:45.094 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:06:45.343 [error] [ms-python.python] provider FAILED
+2024-01-14 19:06:45.343 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:06:46.772 [error] [ms-python.python] provider FAILED
+2024-01-14 19:06:46.772 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:06:47.046 [error] [ms-python.python] provider FAILED
+2024-01-14 19:06:47.046 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:06:47.735 [error] [ms-python.python] provider FAILED
+2024-01-14 19:06:47.735 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:06:48.010 [error] [ms-python.python] provider FAILED
+2024-01-14 19:06:48.010 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:06:54.500 [error] [ms-python.python] provider FAILED
+2024-01-14 19:06:54.500 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:06:54.823 [error] [ms-python.python] provider FAILED
+2024-01-14 19:06:54.823 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:06:55.641 [error] [ms-python.python] provider FAILED
+2024-01-14 19:06:55.641 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:07:05.450 [error] [ms-python.python] provider FAILED
+2024-01-14 19:07:05.450 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:07:09.071 [error] [ms-python.python] provider FAILED
+2024-01-14 19:07:09.072 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:07:09.073 [error] [ms-python.python] provider FAILED
+2024-01-14 19:07:09.073 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:07:10.350 [error] [ms-python.python] provider FAILED
+2024-01-14 19:07:10.350 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:07:12.791 [error] [ms-python.python] provider FAILED
+2024-01-14 19:07:12.792 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:07:16.693 [error] [ms-python.python] provider FAILED
+2024-01-14 19:07:16.693 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:07:16.695 [error] [ms-python.python] provider FAILED
+2024-01-14 19:07:16.695 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:07:17.008 [error] [ms-python.python] provider FAILED
+2024-01-14 19:07:17.008 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:07:17.270 [error] [ms-python.python] provider FAILED
+2024-01-14 19:07:17.270 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:07:18.731 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-01-14 19:07:20.841 [error] [ms-python.python] provider FAILED
+2024-01-14 19:07:20.841 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:07:41.162 [error] [ms-python.python] provider FAILED
+2024-01-14 19:07:41.162 [error] Error: jedi.api.environment.InvalidPythonEnvironment: bin/python seems to be missing.
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339625
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2339919)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334703
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2334723)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-01-14 19:07:43.004 [info] Extension host terminating: renderer closed the MessagePort
+2024-01-14 19:07:43.030 [error] Canceled: Canceled
+	at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at f.I [as value] (/usr/lib/code/extensions/git/dist/main.js:2:924696)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:940613)
+	at /usr/lib/code/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/usr/lib/code/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-01-14 19:07:43.031 [error] Canceled: Canceled
+	at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at set b [as b] (/usr/lib/code/extensions/github/dist/extension.js:2:322364)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:323005
+	at f.value (/usr/lib/code/extensions/git/dist/main.js:2:1016450)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:940613)
+	at /usr/lib/code/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/usr/lib/code/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-01-14 19:07:43.038 [info] Extension host with pid 432207 exiting with code 0

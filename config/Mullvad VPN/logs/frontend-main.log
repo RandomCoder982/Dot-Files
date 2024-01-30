@@ -1,0 +1,20 @@
+[2024-01-06 01:03:50.318][verbose] Chromium sandbox is enabled
+[2024-01-06 01:03:50.319][info] Running version 2023.6
+[2024-01-06 01:03:50.320][verbose] Creating gui-settings file and writing the default settings to it
+[2024-01-06 01:03:50.434][info] Detected locale: en-US
+[2024-01-06 01:03:50.487][info] Connected to the daemon
+[2024-01-06 01:03:50.630][info] Skip autoconnect because account token is not set
+[2024-01-06 01:03:51.114][error] Failed to check autostart file: ENOENT: no such file or directory, access '/home/irene/.config/autostart/mullvad-vpn.desktop'
+[2024-01-06 02:03:50.498][verbose] GRPC Channel connectivity state changed to 2
+[2024-01-06 03:03:50.501][verbose] GRPC Channel connectivity state changed to 2
+[2024-01-06 04:03:50.511][verbose] GRPC Channel connectivity state changed to 2
+[2024-01-06 05:03:50.517][verbose] GRPC Channel connectivity state changed to 2
+[2024-01-06 06:03:50.520][verbose] GRPC Channel connectivity state changed to 2
+[2024-01-06 07:03:50.531][verbose] GRPC Channel connectivity state changed to 2
+[2024-01-06 08:03:50.538][verbose] GRPC Channel connectivity state changed to 2
+[2024-01-06 09:03:50.541][verbose] GRPC Channel connectivity state changed to 2
+[2024-01-06 10:03:50.550][verbose] GRPC Channel connectivity state changed to 2
+[2024-01-06 10:38:36.291][info] before-quit received
+[2024-01-06 10:38:36.294][info] Quit initiated
+[2024-01-06 10:38:36.297][info] Unsubscribed from the daemon events
+[2024-01-06 10:38:36.298][verbose] GRPC Channel connectivity state changed to 4

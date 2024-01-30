@@ -1,0 +1,7 @@
+{
+    "git.suggestSmartCommit": false,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "python.globalModuleInstallation": true,
+    "window.zoomLevel": 1
+}

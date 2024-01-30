@@ -1,0 +1,15 @@
+{
+    "entries" : {
+        "TTF" : {
+            "name" : "TTF",
+            "icon" : null,
+            "comment" : null,
+            "index" : 0,
+            "requires-update" : false,
+            "active" : false,
+            "children" : {            },
+            "families" : [],
+            "size" : 0
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "git.suggestSmartCommit": false,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "python.globalModuleInstallation": true,
+    "window.zoomLevel": 1,
+    "pythonAutoImport.pythonInterpreterPath": "/home/irene/gits/Python-Venv/venv/bin/python3.11"
+}

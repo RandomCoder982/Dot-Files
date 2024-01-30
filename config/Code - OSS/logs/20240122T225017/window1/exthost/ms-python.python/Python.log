@@ -1,0 +1,43 @@
+2024-01-22 22:50:22.121 [info] Default formatter is set to null for workspace /home/irene/gits/Projects/PythonMain
+2024-01-22 22:50:22.149 [info] Test server listening.
+2024-01-22 22:50:22.162 [info] Python interpreter path: /bin/python
+2024-01-22 22:50:22.434 [error] [
+  'Failed to activate a workspace, Class name = g, completed in 288ms, has a falsy return value, Arg 1: <Uri:/home/irene/gits/Projects/PythonMain/test.py>, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at v (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:48007)
+  	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:23805)
+  	at w.activate (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:795716)
+  	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2455
+  	at Array.map (<anonymous>)
+  	at g.activateWorkspace (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2445)]
+]
+2024-01-22 22:50:22.435 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at v (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:48007)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:23805)
+	at w.activate (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:795716)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2455
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2445)]
+2024-01-22 22:50:22.435 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at v (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:48007)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:23805)
+	at w.activate (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:795716)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2455
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/out/client/extension.js:2:2445)]
+2024-01-22 22:50:23.588 [info] Starting Jedi language server for PythonMain.
+2024-01-22 22:50:40.914 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-01-22 22:50:41.723 [info] DAP Server launched with command: /bin/python /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/pythonFiles/lib/python/debugpy/adapter
+2024-01-22 22:50:43.241 [info] Send text to terminal:  /usr/bin/env /bin/python /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 35407 -- /home/irene/gits/Projects/PythonMain/test.py 
+2024-01-22 22:51:03.380 [info] DAP Server launched with command: /bin/python /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/pythonFiles/lib/python/debugpy/adapter
+2024-01-22 22:51:03.480 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-01-22 22:51:03.649 [info] Send text to terminal:  cd /home/irene/gits/Projects/PythonMain ; /usr/bin/env /bin/python /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 56517 -- /home/irene/gits/Projects/PythonMain/test.py 
+2024-01-22 22:51:10.962 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-01-22 22:51:11.127 [info] DAP Server launched with command: /bin/python /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/pythonFiles/lib/python/debugpy/adapter
+2024-01-22 22:51:11.368 [info] Send text to terminal:  cd /home/irene/gits/Projects/PythonMain ; /usr/bin/env /bin/python /home/irene/.vscode-oss/extensions/ms-python.python-2023.22.1-universal/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 34419 -- /home/irene/gits/Projects/PythonMain/test.py 

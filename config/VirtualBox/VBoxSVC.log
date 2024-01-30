@@ -1,0 +1,92 @@
+00:00:00.001096 main     VirtualBox XPCOM Server 7.0.12 r159484 linux.amd64 (Oct 17 2023 12:57:12) release log
+00:00:00.001098 main     Log opened 2023-12-18T04:56:46.275571000Z
+00:00:00.001100 main     Build Type: release
+00:00:00.001103 main     OS Product: Linux
+00:00:00.001105 main     OS Release: 6.6.7-arch1-1
+00:00:00.001106 main     OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 14 Dec 2023 03:45:42 +0000
+00:00:00.001134 main     DMI Product Name: 82R9
+00:00:00.001143 main     DMI Product Version: IdeaPad Flex 5 14ALC7
+00:00:00.001148 main     Firmware type: UEFI
+00:00:00.001756 main     Secure Boot: Disabled
+00:00:00.001790 main     Host RAM: 15328MB (14.9GB) total, 10705MB (10.4GB) available
+00:00:00.001793 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.001795 main     Process ID: 38349
+00:00:00.001796 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.003259 main     IPC socket path: /tmp/.vbox-irene-ipc/ipcd
+00:00:00.111988 nspr-2   VirtualBox: object creation starts
+00:00:00.113327 nspr-2   Home directory: '/home/irene/.config/VirtualBox'
+00:00:00.113811 nspr-2   Loading settings file "/home/irene/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.118523 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.130582 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.133019 nspr-2   HostDnsMonitor: initializing
+00:00:00.133408 nspr-2   NAT: resolv.conf: nameserver 192.168.12.1
+00:00:00.133418 nspr-2   NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlp2s0
+00:00:00.133422 nspr-2   NAT: resolv.conf: nameserver fe80::c6e5:32ff:fed7:84c6
+00:00:00.133435 nspr-2   HostDnsMonitor: updating information
+00:00:00.133456 nspr-2   HostDnsMonitor: old information
+00:00:00.133460 nspr-2     no server entries
+00:00:00.133464 nspr-2     no domain set
+00:00:00.133467 nspr-2     no search string entries
+00:00:00.133471 nspr-2   HostDnsMonitor: new information
+00:00:00.133474 nspr-2     server 1: 192.168.12.1
+00:00:00.133478 nspr-2     server 2: fe80::c6e5:32ff:fed7:84c6%wlp2s0
+00:00:00.133482 nspr-2     domain: lan
+00:00:00.133485 nspr-2     search string 1: lan
+00:00:00.138297 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.147312 nspr-2   Loading settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox" with version "1.19-linux"
+00:00:00.150915 nspr-2   OCI: Local config file '/home/irene/.config/VirtualBox/oci_config' does not exist
+00:00:00.150933 nspr-2   OCI: Original config file '/home/irene/.oci/config' does not exist
+00:00:00.150937 nspr-2   OCI: Reading profiles finished with status NS_OK
+00:00:00.150943 nspr-2   ExtPack: Created cloud provider 'OCI' (hrc=NS_OK)
+00:00:00.150971 nspr-2   VirtualBox: object created
+00:00:00.932484 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:00:01.861466 nspr-3   Saving settings file "/home/irene/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.867441 nspr-3   Finished saving settings file "/home/irene/.config/VirtualBox/VirtualBox.xml"
+00:00:02.188604 nspr-4   Launched VM: 738204704 pid: 38393 (0x95f9) frontend: GUI/Qt name: Windows11S
+00:00:02.206236 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:00:02.388833 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:00:02.791618 nspr-2   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] vrc=VINF_SUCCESS
+00:00:03.153806 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Restoring)}, preserve=false aResultDetail=0
+00:00:03.299505 nspr-8   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:03.301153 nspr-8   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:03.998330 nspr-2   Saving settings file "/home/irene/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:04.003060 nspr-2   Finished saving settings file "/home/irene/.config/VirtualBox/VirtualBox.xml"
+00:00:04.063989 nspr-6   Saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox" with version "1.19-linux"
+00:00:04.073259 nspr-6   Finished saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox"
+00:00:04.132109 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Restoring)}, preserve=false aResultDetail=0
+00:00:22.042931 nspr-5   Saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox" with version "1.19-linux"
+00:00:22.048547 nspr-5   Finished saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox"
+00:00:22.053921 nspr-4   Saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox" with version "1.19-linux"
+00:00:22.057742 nspr-4   Finished saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox"
+00:00:22.098325 nspr-4   Saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox" with version "1.19-linux"
+00:00:22.103234 nspr-4   Finished saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox"
+00:00:22.144833 nspr-2   Saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox" with version "1.19-linux"
+00:00:22.149363 nspr-2   Finished saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox"
+00:00:22.462094 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:29.040122 nspr-4   Saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox" with version "1.19-linux"
+00:00:29.043847 nspr-4   Finished saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox"
+00:00:29.053723 nspr-8   Saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox" with version "1.19-linux"
+00:00:29.058229 nspr-8   Finished saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox"
+00:00:29.207119 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:29.713573 nspr-9   Saving settings file "/home/irene/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:29.716999 nspr-9   Finished saving settings file "/home/irene/.config/VirtualBox/VirtualBox.xml"
+00:07:04.724151 nspr-10  Saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox" with version "1.19-linux"
+00:07:04.729413 nspr-10  Finished saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox"
+00:07:05.087376 nspr-9   Saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox" with version "1.19-linux"
+00:07:05.091949 nspr-9   Finished saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox"
+00:07:05.388190 nspr-6   Saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox" with version "1.19-linux"
+00:07:05.392987 nspr-6   Finished saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox"
+00:07:22.826176 nspr-5   Saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox" with version "1.19-linux"
+00:07:22.834314 nspr-5   Finished saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox"
+00:07:23.189561 nspr-5   Saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox" with version "1.19-linux"
+00:07:23.193875 nspr-5   Finished saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox"
+00:11:45.572844 nspr-2   Saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox" with version "1.19-linux"
+00:11:45.576037 nspr-2   Finished saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox"
+00:11:46.069464 SaveState Saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox" with version "1.19-linux"
+00:11:46.082488 SaveState Finished saving settings file "/home/irene/VirtualBox VMs/Windows11S/Windows11S.vbox"
+00:11:52.588421 main     VirtualBox: object deletion starts
+00:11:52.588607 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/irene/VirtualBox VMs/Windows11S/Windows11S.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:11:52.592126 main     HostDnsMonitor: shutting down ...
+00:11:52.605967 main     HostDnsMonitor: shut down
+00:11:52.629842 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:11:52.630062 main     VirtualBox: object deleted

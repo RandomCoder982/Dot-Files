@@ -1,0 +1,10 @@
+[kmix]
+_k_friendly_name=KMix
+decrease-volume-Master@HD-Audio Generic=,,Decrease volume of Master on HD-Audio Generic
+decrease_volume=Volume Down,Volume Down,Decrease Volume
+increase-volume-Master@HD-Audio Generic=,,Increase volume of Master on HD-Audio Generic
+increase_volume=Volume Up,Volume Up,Increase Volume
+mute=Volume Mute,Volume Mute,Mute
+toggle-mute-IEC958 2@HD-Audio Generic=,,Mute IEC958 2 on HD-Audio Generic
+toggle-mute-IEC958@HD-Audio Generic=,,Mute IEC958 on HD-Audio Generic
+toggle-mute-Master@HD-Audio Generic=,,Mute Master on HD-Audio Generic

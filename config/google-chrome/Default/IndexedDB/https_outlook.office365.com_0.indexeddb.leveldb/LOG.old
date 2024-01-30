@@ -1,0 +1,25 @@
+2024/01/25-06:46:23.439 2572 Reusing MANIFEST /home/irene/.config/google-chrome/Default/IndexedDB/https_outlook.office365.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/25-06:46:23.439 2572 Recovering log #18
+2024/01/25-06:46:23.439 2572 Reusing old log /home/irene/.config/google-chrome/Default/IndexedDB/https_outlook.office365.com_0.indexeddb.leveldb/000018.log 
+2024/01/25-06:46:23.440 2572 Delete type=2 #17
+2024/01/25-06:46:23.714 256f Level-0 table #23: started
+2024/01/25-06:46:23.718 256f Level-0 table #23: 624 bytes OK
+2024/01/25-06:46:23.721 256f Delete type=0 #18
+2024/01/25-06:46:23.721 256f Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 225 : 1
+2024/01/25-06:46:23.721 256f Compacting 1@0 + 1@1 files
+2024/01/25-06:46:23.723 256f Generated table #24@0: 42 keys, 7144 bytes
+2024/01/25-06:46:23.723 256f Compacted 1@0 + 1@1 files => 7144 bytes
+2024/01/25-06:46:23.726 256f compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/25-06:46:23.727 256f Delete type=2 #23
+2024/01/25-06:46:23.727 256f Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 225 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/01/25-06:46:23.727 256f Level-0 table #26: started
+2024/01/25-06:46:23.729 256f Level-0 table #26: 507 bytes OK
+2024/01/25-06:46:23.731 256f Delete type=2 #20
+2024/01/25-06:46:23.731 256f Delete type=0 #22
+2024/01/25-06:46:23.731 256f Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 251 : 0
+2024/01/25-06:46:23.731 256f Compacting 1@0 + 1@1 files
+2024/01/25-06:46:23.733 256f Generated table #27@0: 39 keys, 7169 bytes
+2024/01/25-06:46:23.733 256f Compacted 1@0 + 1@1 files => 7169 bytes
+2024/01/25-06:46:23.735 256f compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/25-06:46:23.735 256f Delete type=2 #26
+2024/01/25-06:46:23.735 256f Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 251 : 0 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

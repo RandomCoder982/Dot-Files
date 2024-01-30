@@ -1,0 +1,7 @@
+[2024-01-09 16:21:26.812] [info] Using configuration file /home/irene/.config/waybar/config
+[2024-01-09 16:21:26.815] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[2024-01-09 16:21:26.815] [info] Using CSS file /home/irene/.config/waybar/style.css
+[2024-01-09 16:21:26.826] [warning] Mapping is not an object
+[2024-01-09 16:21:26.826] [info] Hyprland IPC starting
+[2024-01-09 16:21:26.986] [info] Bar configured (width: 1280, height: 36) for output: eDP-1
+Starting

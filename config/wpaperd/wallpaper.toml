@@ -1,0 +1,8 @@
+[default]
+path = "~/Pictures/wallpapers"
+duration = "30m"
+sorting = "ascending"
+
+[eDP-1]
+path = "~/Pictures/wallpapers"
+apply-shadow = true

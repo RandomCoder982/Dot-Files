@@ -1,0 +1,9 @@
+0
+/usr/share/backgrounds/wallpaper1.png
+/home/irene/Pictures/wallpaper1.png
+/usr/share/backgrounds/wallpaper2.png
+/home/irene/Pictures/wallpaper2.png
+/home/irene/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527875412_d83747c3a8_o.jpg
+/home/irene/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527944686_de592c2745_o.jpg
+/home/irene/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527939300_a331fe7166_o.jpg
+/home/irene/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527945720_c624e419a5_o.jpg

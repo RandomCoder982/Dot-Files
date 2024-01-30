@@ -1,0 +1,25 @@
+00:00:00.325595 VirtualBox GUI VM Selector Window 7.0.12 r159484 linux.amd64 (Oct 17 2023 12:57:12) release log
+00:00:00.325597 Log opened 2023-12-18T04:56:46.474728000Z
+00:00:00.325599 Build Type: release
+00:00:00.325601 OS Product: Linux
+00:00:00.325603 OS Release: 6.6.7-arch1-1
+00:00:00.325605 OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 14 Dec 2023 03:45:42 +0000
+00:00:00.325629 DMI Product Name: 82R9
+00:00:00.325637 DMI Product Version: IdeaPad Flex 5 14ALC7
+00:00:00.325641 Firmware type: UEFI
+00:00:00.325929 Secure Boot: Disabled
+00:00:00.325963 Host RAM: 15328MB (14.9GB) total, 10694MB (10.4GB) available
+00:00:00.325966 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.325967 Process ID: 38318
+00:00:00.325968 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.325990 Qt version: 5.15.11
+00:00:00.327496 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.339402 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.976618 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:01.014211 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 452x282 x 640x400
+00:00:04.249319 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:22.578002 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:29.250285 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:29.325020 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:00.611790 GUI: UICommon: Handling aboutToQuit request..
+00:01:00.893485 GUI: UICommon: aboutToQuit request handled!

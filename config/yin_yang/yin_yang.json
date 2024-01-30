@@ -1,0 +1,93 @@
+{
+    "version": 3.2,
+    "running": false,
+    "dark_mode": true,
+    "mode": "manual",
+    "coordinates": [
+        0,
+        0
+    ],
+    "update_location": false,
+    "update_interval": 60,
+    "times": [
+        "07:00",
+        "20:00"
+    ],
+    "plugins": {
+        "system": {
+            "enabled": false,
+            "light_theme": "",
+            "dark_theme": ""
+        },
+        "colors": {
+            "enabled": false,
+            "light_theme": "",
+            "dark_theme": ""
+        },
+        "gtk": {
+            "enabled": false,
+            "light_theme": "",
+            "dark_theme": ""
+        },
+        "kvantum": {
+            "enabled": false,
+            "light_theme": "KvFlatLight",
+            "dark_theme": "KvFlat"
+        },
+        "wallpaper": {
+            "enabled": false,
+            "light_theme": "",
+            "dark_theme": ""
+        },
+        "firefox": {
+            "enabled": true,
+            "light_theme": "firefox-compact-dark@mozilla.org",
+            "dark_theme": "firefox-compact-dark@mozilla.org"
+        },
+        "brave": {
+            "enabled": false,
+            "light_theme": "#ffffff",
+            "dark_theme": "#000000"
+        },
+        "vs code": {
+            "enabled": false,
+            "light_theme": "Default Light+",
+            "dark_theme": "Default Dark+"
+        },
+        "atom": {
+            "enabled": false,
+            "light_theme": "one-light",
+            "dark_theme": "one-dark"
+        },
+        "gedit": {
+            "enabled": false,
+            "light_theme": "",
+            "dark_theme": ""
+        },
+        "onlyoffice": {
+            "enabled": false,
+            "light_theme": "theme-light",
+            "dark_theme": "theme-dark"
+        },
+        "konsole": {
+            "enabled": false,
+            "light_theme": "BlackOnWhite",
+            "dark_theme": "Breeze"
+        },
+        "custom": {
+            "enabled": false,
+            "light_theme": "",
+            "dark_theme": ""
+        },
+        "sound": {
+            "enabled": false,
+            "light_theme": "./resources/light.wav",
+            "dark_theme": "./resources/dark.wav"
+        },
+        "notification": {
+            "enabled": false,
+            "light_theme": "Day",
+            "dark_theme": "Night"
+        }
+    }
+}

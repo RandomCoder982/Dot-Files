@@ -1,0 +1,6 @@
+2024/01/11-14:05:31.566 4 Reusing MANIFEST /home/irene/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2024/01/11-14:05:31.575 4 Recovering log #40
+2024/01/11-14:05:31.577 4 Reusing old log /home/irene/.config/chromium/Default/Local Storage/leveldb/000040.log 
+2024/01/11-14:06:28.945 6 Level-0 table #44: started
+2024/01/11-14:06:28.950 6 Level-0 table #44: 49737 bytes OK
+2024/01/11-14:06:28.954 6 Delete type=0 #40

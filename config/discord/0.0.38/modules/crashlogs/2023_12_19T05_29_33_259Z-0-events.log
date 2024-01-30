@@ -1,0 +1,14 @@
+2023-12-19T05:29:33.272Z 0: 
+
+----------------------------------------------
+2023-12-19T05:29:33.300Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.38"}, modulepath: /home/irene/.config/discord/0.0.38/modules
+2023-12-19T05:29:33.306Z 2: ✅ webContents.created web1 ""
+2023-12-19T05:29:33.309Z 3: ✅ window.created win1 "discord"
+2023-12-19T05:29:33.716Z 4: ✅ webContents.did-finish-load web1
+2023-12-19T05:30:12.087Z 5: ✅ webContents.created web2 ""
+2023-12-19T05:30:12.095Z 6: ✅ window.created win2 "Discord"
+2023-12-19T05:30:19.144Z 7: ✅ webContents.did-finish-load web2
+2023-12-19T05:30:19.243Z 8: window.close win1
+2023-12-19T05:30:19.254Z 9: webContents.destroyed web1
+2023-12-19T05:30:19.256Z 10: window.closed win1
+2023-12-19T05:33:26.661Z 11: window.close win2

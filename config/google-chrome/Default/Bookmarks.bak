@@ -1,0 +1,47 @@
+{
+   "checksum": "9ff63a99fcd34b706bc9a4827622597e",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13350626647906086",
+            "date_last_used": "0",
+            "guid": "0355843b-3ed5-466c-a6e1-4072b3b1fc7f",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Dashboard",
+            "type": "url",
+            "url": "https://dmschools.instructure.com/"
+         } ],
+         "date_added": "13350620930854712",
+         "date_last_used": "0",
+         "date_modified": "13350626655304672",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13350620930854715",
+         "date_last_used": "0",
+         "date_modified": "13350626647906086",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13350620930854718",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
