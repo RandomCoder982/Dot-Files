@@ -1,0 +1,30 @@
+2024/03/18-06:43:52.128 4ce Reusing MANIFEST /home/irene/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2024/03/18-06:43:52.130 4ce Recovering log #200
+2024/03/18-06:43:52.141 4ce Reusing old log /home/irene/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000200.log 
+2024/03/18-06:44:09.281 4c2 Level-0 table #208: started
+2024/03/18-06:44:09.308 4c2 Level-0 table #208: 2775514 bytes OK
+2024/03/18-06:44:09.317 4c2 Delete type=0 #200
+2024/03/18-06:44:09.594 4c2 Level-0 table #210: started
+2024/03/18-06:44:09.617 4c2 Level-0 table #210: 2116315 bytes OK
+2024/03/18-06:44:09.620 4c2 Delete type=0 #207
+2024/03/18-06:44:12.201 4c2 Level-0 table #212: started
+2024/03/18-06:44:12.218 4c2 Level-0 table #212: 1012932 bytes OK
+2024/03/18-06:44:12.222 4c2 Delete type=0 #209
+2024/03/18-06:46:17.573 4c2 Level-0 table #214: started
+2024/03/18-06:46:17.608 4c2 Level-0 table #214: 3714814 bytes OK
+2024/03/18-06:46:17.612 4c2 Delete type=0 #211
+2024/03/18-06:46:17.614 4c2 Compacting 4@0 + 4@1 files
+2024/03/18-06:46:17.661 4c2 Generated table #215@0: 8 keys, 2747278 bytes
+2024/03/18-06:46:17.702 4c2 Generated table #216@0: 9 keys, 2799878 bytes
+2024/03/18-06:46:17.741 4c2 Generated table #217@0: 2 keys, 2539491 bytes
+2024/03/18-06:46:17.755 4c2 Generated table #218@0: 11 keys, 773275 bytes
+2024/03/18-06:46:17.755 4c2 Compacted 4@0 + 4@1 files => 8859922 bytes
+2024/03/18-06:46:17.757 4c2 compacted to: files[ 0 4 1 0 0 0 0 ]
+2024/03/18-06:46:17.758 4c2 Delete type=2 #208
+2024/03/18-06:46:17.758 4c2 Delete type=2 #210
+2024/03/18-06:46:17.758 4c2 Delete type=2 #202
+2024/03/18-06:46:17.758 4c2 Delete type=2 #214
+2024/03/18-06:46:17.758 4c2 Delete type=2 #212
+2024/03/18-06:46:17.758 4c2 Delete type=2 #205
+2024/03/18-06:46:17.758 4c2 Delete type=2 #204
+2024/03/18-06:46:17.758 4c2 Delete type=2 #203

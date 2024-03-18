@@ -12,7 +12,7 @@ then
 	then
 		pkill '^waybar$'
 	fi
-	slock
+	hyprlock
 	touch ~/.config/scripts/lockscreen-condition
 fi
 

@@ -1,0 +1,7 @@
+2024/02/28-15:40:35.251 410 Reusing MANIFEST /home/irene/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/28-15:40:35.251 410 Recovering log #3
+2024/02/28-15:40:35.254 410 Reusing old log /home/irene/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2024/02/28-15:41:26.949 411 Level-0 table #5: started
+2024/02/28-15:41:26.954 411 Level-0 table #5: 135266 bytes OK
+2024/02/28-15:41:26.957 411 Delete type=0 #3
+2024/02/28-15:41:26.958 411 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

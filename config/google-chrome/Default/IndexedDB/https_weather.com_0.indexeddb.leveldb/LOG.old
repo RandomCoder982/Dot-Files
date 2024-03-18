@@ -1,0 +1,6 @@
+2024/03/07-11:57:05.272 c9a Creating DB /home/irene/.config/google-chrome/Default/IndexedDB/https_weather.com_0.indexeddb.leveldb since it was missing.
+2024/03/07-11:57:05.278 c9a Reusing MANIFEST /home/irene/.config/google-chrome/Default/IndexedDB/https_weather.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/07-11:57:13.699 c9b Level-0 table #5: started
+2024/03/07-11:57:13.701 c9b Level-0 table #5: 1216 bytes OK
+2024/03/07-11:57:13.704 c9b Delete type=0 #3
+2024/03/07-11:57:13.704 c9b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

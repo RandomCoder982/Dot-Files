@@ -1,0 +1,6 @@
+2024/03/07-13:34:11.880 c9a Creating DB /home/irene/.config/google-chrome/Default/IndexedDB/https_coinmarketcap.com_0.indexeddb.leveldb since it was missing.
+2024/03/07-13:34:11.886 c9a Reusing MANIFEST /home/irene/.config/google-chrome/Default/IndexedDB/https_coinmarketcap.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/07-13:36:59.958 c9b Level-0 table #5: started
+2024/03/07-13:36:59.960 c9b Level-0 table #5: 4313 bytes OK
+2024/03/07-13:36:59.962 c9b Delete type=0 #3
+2024/03/07-13:36:59.962 c9b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

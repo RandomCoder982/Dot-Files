@@ -1,3 +1,6 @@
-2024/01/29-21:57:14.754 4 Reusing MANIFEST /home/irene/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2024/01/29-21:57:14.757 4 Recovering log #117
-2024/01/29-21:57:14.758 4 Reusing old log /home/irene/.config/google-chrome/Default/Local Storage/leveldb/000117.log 
+2024/03/18-06:43:51.678 4 Reusing MANIFEST /home/irene/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2024/03/18-06:43:51.681 4 Recovering log #1178
+2024/03/18-06:43:51.682 4 Reusing old log /home/irene/.config/google-chrome/Default/Local Storage/leveldb/001178.log 
+2024/03/18-06:45:09.824 4 Level-0 table #1182: started
+2024/03/18-06:45:09.828 4 Level-0 table #1182: 34876 bytes OK
+2024/03/18-06:45:09.831 4 Delete type=0 #1178

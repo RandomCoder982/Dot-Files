@@ -1,18 +1,3 @@
-2024/01/25-10:21:53.412 682 Reusing MANIFEST /home/irene/.config/google-chrome/Default/WebStorage/12/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2024/01/25-10:21:53.412 682 Recovering log #3
-2024/01/25-10:21:53.412 682 Reusing old log /home/irene/.config/google-chrome/Default/WebStorage/12/IndexedDB/indexeddb.leveldb/000003.log 
-2024/01/25-15:40:33.094 694 Level-0 table #5: started
-2024/01/25-15:40:33.124 694 Level-0 table #5: 983980 bytes OK
-2024/01/25-15:40:33.129 694 Delete type=0 #3
-2024/01/25-15:51:33.097 683 Level-0 table #7: started
-2024/01/25-15:51:33.110 683 Level-0 table #7: 744116 bytes OK
-2024/01/25-15:51:33.115 683 Delete type=0 #4
-2024/01/25-15:58:33.115 694 Compacting 1@1 + 1@2 files
-2024/01/25-15:58:33.133 694 Generated table #8@1: 37 keys, 15137 bytes
-2024/01/25-15:58:33.133 694 Compacted 1@1 + 1@2 files => 15137 bytes
-2024/01/25-15:58:33.136 694 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/01/25-15:58:33.162 683 Level-0 table #10: started
-2024/01/25-15:58:33.174 683 Level-0 table #10: 678184 bytes OK
-2024/01/25-15:58:33.179 683 Delete type=2 #7
-2024/01/25-15:58:33.179 683 Delete type=0 #6
-2024/01/25-15:58:33.179 683 Delete type=2 #5
+2024/03/05-12:42:22.308 41c Reusing MANIFEST /home/irene/.config/google-chrome/Default/WebStorage/12/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/03/05-12:42:22.308 41c Recovering log #15
+2024/03/05-12:42:22.308 41c Reusing old log /home/irene/.config/google-chrome/Default/WebStorage/12/IndexedDB/indexeddb.leveldb/000015.log 

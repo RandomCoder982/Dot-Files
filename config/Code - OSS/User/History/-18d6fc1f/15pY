@@ -1,0 +1,23 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	new file:   PythonMain/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+#	modified:   PythonMain/graphs.py
+#	deleted:    PythonMain/pi515.py
+#	new file:   PythonMain/pi515/data.csv
+#	new file:   PythonMain/pi515/pi515.py
+#	new file:   PythonMain/test.ipynb
+#	deleted:    PythonMain/test.py
+#	new file:   lib/bindings/utils.js
+#	new file:   lib/tom-select/tom-select.complete.min.js
+#	new file:   lib/tom-select/tom-select.css
+#	new file:   lib/vis-9.1.2/vis-network.css
+#	new file:   lib/vis-9.1.2/vis-network.min.js
+#	new file:   nx.html
+#
+pop

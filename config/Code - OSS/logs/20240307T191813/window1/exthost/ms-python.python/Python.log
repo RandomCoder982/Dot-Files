@@ -1,0 +1,328 @@
+2024-03-07 19:20:31.601 [info] Default formatter is set to null for workspace /home/irene/gits/Projects/PythonMain
+2024-03-07 19:20:31.601 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at k (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:51400)
+	at a.onDidWriteTerminalData (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:31409)
+	at new g (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:747407)
+	at t.resolveInstance (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2008019)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2009927
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2007793)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2009927
+	at t.resolve (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2010190)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:1993753
+	at e._get (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:1993519)
+	at e.get (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:1992231)
+	at e.dynamicValue (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2015295)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2009416
+	at c (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2008462)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2009356
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2008875
+	at Array.map (<anonymous>)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2008847
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2007793)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2009927
+	at t.resolve (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2010190)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:1993753
+	at e._get (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:1993519)
+	at e.get (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:1992231)
+	at a.get (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:467094)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:388673
+	at async t.activateComponents (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:386960)
+	at async /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2903459
+	at async e (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2902991)
+	at async u.n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:6255)
+	at async u.m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:6218)
+	at async u.l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:5675)]
+2024-03-07 19:20:31.601 [info] Test server listening.
+2024-03-07 19:20:31.601 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:20:31.601 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:20:31.618 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-03-07 19:20:31.618 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-03-07 19:20:31.618 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-03-07 19:20:31.644 [info] > ~/gits/Python -I ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-07 19:20:31.645 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:20:31.648 [error] [Error: Command failed: /home/irene/gits/Python -I /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+/bin/sh: line 1: /home/irene/gits/Python: No such file or directory
+
+	at ChildProcess.exithandler (node:child_process:419:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/home/irene/gits/Python -I /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py'
+}
+2024-03-07 19:20:33.666 [info] > ~/gits/Python -I ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-07 19:20:33.669 [error] [Error: Command failed: /home/irene/gits/Python -I /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+/bin/sh: line 1: /home/irene/gits/Python: No such file or directory
+
+	at ChildProcess.exithandler (node:child_process:419:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/home/irene/gits/Python -I /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py'
+}
+2024-03-07 19:20:33.678 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:20:33.684 [error] [
+  'Failed to activate a workspace, Class name = g, completed in 2111ms, has a falsy return value, Arg 1: <Uri:/home/irene/gits/Projects/PythonMain/ParticleSimNoTut1stTry.py>, Arg 2: {"started":1709860830847}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at k (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:51400)
+  	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:24146)
+  	at T.activate (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:776051)
+  	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2460
+  	at Array.map (<anonymous>)
+  	at g.activateWorkspace (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2450)]
+]
+2024-03-07 19:20:33.684 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at k (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:51400)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:24146)
+	at T.activate (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:776051)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2450)]
+2024-03-07 19:20:33.684 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at k (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:51400)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:24146)
+	at T.activate (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:776051)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2450)]
+2024-03-07 19:20:33.685 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:20:33.685 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:20:33.686 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:20:33.698 [error] Unable to start Jedi language server as a valid interpreter is not selected
+2024-03-07 19:23:25.702 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:23:25.708 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:28:36.614 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:28:36.669 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:28:39.447 [info] > conda info --json
+2024-03-07 19:28:39.449 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:28:39.461 [info] Found: /bin/python --> /bin/python3.11
+2024-03-07 19:28:39.462 [info] Found: /bin/python3 --> /bin/python3.11
+2024-03-07 19:28:39.462 [info] Found: /bin/python3.11 --> /bin/python3.11
+2024-03-07 19:28:39.478 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:28:39.478 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:28:39.478 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:28:39.478 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:28:39.478 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:28:39.510 [info] Found: /sbin/python --> /sbin/python3.11
+2024-03-07 19:28:39.513 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:28:39.513 [warning] Failed to check if /home/irene/gits/Python is an executable [Error: ENOENT: no such file or directory, lstat '/home/irene/gits/Python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/irene/gits/Python'
+}
+2024-03-07 19:28:39.514 [info] Found: /sbin/python3 --> /sbin/python3.11
+2024-03-07 19:28:39.514 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2024-03-07 19:28:39.522 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2024-03-07 19:28:39.523 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2024-03-07 19:28:39.523 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2024-03-07 19:28:39.588 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2024-03-07 19:28:39.588 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2024-03-07 19:28:39.588 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11
+2024-03-07 19:28:39.615 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-07 19:28:39.637 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-07 19:28:39.661 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-07 19:28:39.683 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-07 19:29:00.549 [info] > ~/gits/Python_Venv/bin/jupyter-kernel -I ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-07 19:29:00.740 [error] [Error: Command failed: /home/irene/gits/Python_Venv/bin/jupyter-kernel -I /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+[KernelApp] WARNING | Unrecognized alias: 'I', it will have no effect.
+[KernelApp] CRITICAL | Bad config encountered during initialization: Error loading argument I=['/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py'], values whose keys begin with an uppercase char must be Config instances: 'I', DeferredConfigString('/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py')
+
+	at ChildProcess.exithandler (node:child_process:419:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 1,
+  killed: false,
+  signal: null,
+  cmd: '/home/irene/gits/Python_Venv/bin/jupyter-kernel -I /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py'
+}
+2024-03-07 19:29:02.756 [info] > ~/gits/Python_Venv/bin/jupyter-kernel -I ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-07 19:29:02.934 [error] [Error: Command failed: /home/irene/gits/Python_Venv/bin/jupyter-kernel -I /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+[KernelApp] WARNING | Unrecognized alias: 'I', it will have no effect.
+[KernelApp] CRITICAL | Bad config encountered during initialization: Error loading argument I=['/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py'], values whose keys begin with an uppercase char must be Config instances: 'I', DeferredConfigString('/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py')
+
+	at ChildProcess.exithandler (node:child_process:419:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 1,
+  killed: false,
+  signal: null,
+  cmd: '/home/irene/gits/Python_Venv/bin/jupyter-kernel -I /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py'
+}
+2024-03-07 19:29:02.936 [error] Unable to start Jedi language server as a valid interpreter is not selected
+2024-03-07 19:29:59.544 [info] > ~/gits/Python_Venv/bin/python3.11 -I ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/pythonFiles/interpreterInfo.py
+2024-03-07 19:29:59.577 [info] Python interpreter path: ~/gits/Python_Venv/bin/python3.11
+2024-03-07 19:29:59.577 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain
+2024-03-07 19:30:00.070 [info] Starting Jedi language server for PythonMain.
+2024-03-07 19:30:05.755 [info] Send text to terminal: source /home/irene/gits/Python_Venv/bin/activate
+2024-03-07 19:30:07.128 [info] Send text to terminal:  /usr/bin/env /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/.vscode-oss/extensions/ms-python.debugpy-2024.2.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 46393 -- /home/irene/gits/Projects/PythonMain/test.ipynb 
+2024-03-07 19:30:34.378 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:30:35.116 [info] Send text to terminal: source /home/irene/gits/Python_Venv/bin/activate
+2024-03-07 19:30:35.618 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:31:03.483 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:31:04.107 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:31:05.193 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:31:11.162 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:31:13.002 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:31:13.991 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:31:23.100 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:31:23.884 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:32:16.642 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:32:16.827 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:32:17.982 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:32:19.327 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:32:30.653 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:32:31.185 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:32:32.455 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:32:34.281 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:32:34.525 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:32:52.633 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:32:53.131 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:32:57.760 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:32:58.227 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:33:03.725 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:33:04.062 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:35:02.347 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:35:06.504 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:35:07.789 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:41:57.740 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:42:17.994 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:42:19.402 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:42:21.604 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:42:25.616 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:42:25.961 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:42:34.167 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:42:34.784 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:42:42.404 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:42:43.022 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:42:54.755 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:42:55.141 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:42:58.180 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:42:58.791 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:44:09.969 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:44:14.830 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:44:15.619 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:44:36.194 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:44:36.539 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:57:00.507 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:57:02.163 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 19:57:02.410 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/test.py
+2024-03-07 20:03:42.463 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/perfect_numbers.py
+2024-03-07 20:04:19.089 [info] Send text to terminal:  cd /home/irene/gits/Projects/PythonMain ; /usr/bin/env /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/.vscode-oss/extensions/ms-python.debugpy-2024.2.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 41129 -- /home/irene/gits/Projects/PythonMain/diceRoller.py 
+2024-03-07 20:22:18.338 [info] Discover tests for workspace name: PythonMain - uri: /home/irene/gits/Projects/PythonMain/particleSystem.py
+2024-03-07 20:22:28.048 [info] Send text to terminal: /home/irene/gits/Python_Venv/bin/python3.11 /home/irene/gits/Projects/PythonMain/PlanetSimulation.py

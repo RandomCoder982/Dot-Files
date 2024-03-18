@@ -1,3 +1,3 @@
-2024/01/14-18:38:58.619 65791 Reusing MANIFEST /home/irene/.config/balena-etcher/Local Storage/leveldb/MANIFEST-000001
-2024/01/14-18:38:58.620 65791 Recovering log #3
-2024/01/14-18:38:58.620 65791 Reusing old log /home/irene/.config/balena-etcher/Local Storage/leveldb/000003.log 
+2024/03/18-06:56:34.545 eff Reusing MANIFEST /home/irene/.config/balena-etcher/Local Storage/leveldb/MANIFEST-000001
+2024/03/18-06:56:34.548 eff Recovering log #3
+2024/03/18-06:56:34.549 eff Reusing old log /home/irene/.config/balena-etcher/Local Storage/leveldb/000003.log 

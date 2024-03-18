@@ -1,0 +1,127 @@
+2024-03-07 19:18:14.587 [info] Started local extension host with pid 26100.
+2024-03-07 19:18:14.682 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-03-07 19:18:14.683 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-03-07 19:18:14.684 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, quickPickItemTooltip, notebookExecution'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-03-07 19:18:14.684 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-03-07 19:18:14.703 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2024-03-07 19:18:17.687 [info] [perf] Render performance baseline is 162ms
+2024-03-07 19:19:49.293 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/irene/Downloads/auth_log 
+2024-03-07 19:19:49.903 [info] Started local extension host with pid 26384.
+2024-03-07 19:19:50.006 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-03-07 19:19:50.006 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-03-07 19:19:50.007 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, quickPickItemTooltip, notebookExecution'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-03-07 19:19:50.007 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-03-07 19:19:50.032 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2024-03-07 19:19:52.760 [info] [perf] Render performance baseline is 159ms
+2024-03-07 19:20:31.485 [error] [Extension Host] extension activation failed Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at k (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:51400)
+	at Oc.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:44795)
+	at new Pk (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:24:500973)
+	at f (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1032729)
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1034619
+	at t.resolveInstance (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1034646)
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037678
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1038015
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037338
+	at v (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037370)
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037232
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037166
+	at Array.map (<anonymous>)
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037138
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1033977
+	at Array.reduce (<anonymous>)
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1033949
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1034276
+	at t.resolveInstance (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1034646)
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037678
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1038015
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037338
+	at v (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037370)
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037232
+	at t.resolve (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1039202)
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1008175
+	at e._get (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1007544)
+	at e._getButThrowIfAsync (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1007604)
+	at e.get (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1003299)
+	at Kp.get (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:17:35919)
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:24:649097
+2024-03-07 19:30:13.278 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at h.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1877:95)
+    at h.$acceptDAExit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1877:35)
+    at g.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:13967)
+    at g.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:13733)
+    at g.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:12826)
+    at g.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:12044)
+    at l.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:10692)
+    at o.y (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at o.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at r.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:624:14439)
+    at V.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1632:7759)
+2024-03-07 19:30:13.282 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at h.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1877:95)
+    at h.$acceptDAError (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1876:15492)
+    at g.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:13967)
+    at g.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:13733)
+    at g.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:12826)
+    at g.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:11905)
+    at l.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:10692)
+    at o.y (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at o.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at r.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:624:14439)
+    at V.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1632:7759)
+2024-03-07 19:41:20.278 [error] UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2306057
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2306351)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2301135
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2301155)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-03-07 19:41:21.416 [error] UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2306057
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2306351)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2301135
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2301155)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-03-07 19:41:22.429 [error] UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2306057
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2306351)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2301135
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2301155)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-03-07 19:41:49.997 [error] UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2306057
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2306351)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2301135
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2301155)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-03-07 19:41:51.006 [error] UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2306057
+	at re (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2306351)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2301135
+	at Immediate.<anonymous> (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2301155)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-03-07 20:04:31.088 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at h.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1877:95)
+    at h.$acceptDAExit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1877:35)
+    at g.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:13967)
+    at g.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:13733)
+    at g.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:12826)
+    at g.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:12044)
+    at l.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:10692)
+    at o.y (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at o.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at r.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:624:14439)
+    at V.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1632:7759)
+2024-03-07 20:04:31.089 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at h.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1877:95)
+    at h.$acceptDAError (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1876:15492)
+    at g.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:13967)
+    at g.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:13733)
+    at g.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:12826)
+    at g.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:11905)
+    at l.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1609:10692)
+    at o.y (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at o.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at r.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:624:14439)
+    at V.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1632:7759)

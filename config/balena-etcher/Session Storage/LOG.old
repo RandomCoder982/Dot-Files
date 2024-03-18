@@ -1,2 +1,3 @@
-2024/01/14-11:40:54.347 1b4ac Creating DB /home/irene/.config/balena-etcher/Session Storage since it was missing.
-2024/01/14-11:40:54.353 1b4ac Reusing MANIFEST /home/irene/.config/balena-etcher/Session Storage/MANIFEST-000001
+2024/03/18-06:53:51.894 da9 Reusing MANIFEST /home/irene/.config/balena-etcher/Session Storage/MANIFEST-000001
+2024/03/18-06:53:51.894 da9 Recovering log #3
+2024/03/18-06:53:51.894 da9 Reusing old log /home/irene/.config/balena-etcher/Session Storage/000003.log 

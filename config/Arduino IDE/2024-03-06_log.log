@@ -1,0 +1,588 @@
+2024-03-06 10:23:40 Arduino IDE 2.3.2
+2024-03-06 10:23:40 Checking for frontend application configuration customizations. Module path: /opt/arduino-ide/resources/app/lib/backend/electron-main.js, destination 'package.json': /opt/arduino-ide/resources/app/package.json
+2024-03-06 10:23:40 Setting 'theia.frontend.config.appVersion' application configuration value to: "2.3.2" (type of string)
+2024-03-06 10:23:40 Setting 'theia.frontend.config.cliVersion' application configuration value to: "0.35.3" (type of string)
+2024-03-06 10:23:40 Setting 'theia.frontend.config.buildDate' application configuration value to: "2024-02-20T09:54:08.669Z" (type of string)
+2024-03-06 10:23:40 Frontend application configuration after modifications: {"applicationName":"Arduino IDE","defaultTheme":{"light":"arduino-theme","dark":"arduino-theme-dark"},"defaultIconTheme":"none","electron":{"windowOptions":{}},"defaultLocale":"","validatePreferencesSchema":false,"preferences":{"window.title":"${rootName}${activeEditorShort}${appName}","files.autoSave":"afterDelay","editor.minimap.enabled":false,"editor.tabSize":2,"editor.scrollBeyondLastLine":false,"editor.quickSuggestions":{"other":false,"comments":false,"strings":false},"editor.maxTokenizationLineLength":500,"editor.bracketPairColorization.enabled":false,"breadcrumbs.enabled":false,"workbench.tree.renderIndentGuides":"none","explorer.compactFolders":false},"appVersion":"2.3.2","cliVersion":"0.35.3","buildDate":"2024-02-20T09:54:08.669Z"}
+2024-03-06 10:23:40 Starting backend process. PID: 1180
+2024-03-06 10:23:40 Using browser-only version of superagent in non-browser environment
+2024-03-06 10:23:40 Configuration directory URI: 'file:///home/irene/.arduinoIDE'
+2024-03-06 10:23:40 Configuring to accept webviews on '^.+\.webview\..+$' hostname.
+2024-03-06 10:23:40 2024-03-06T16:23:40.983Z root INFO Backend Object.initialize: 5.6 ms [Finished 0.482 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.984Z root INFO Backend Object.configure: 4.6 ms [Finished 0.482 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.984Z root INFO Backend s.onStart: 2.4 ms [Finished 0.482 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.986Z root INFO Backend s.configure: 0.4 ms [Finished 0.503 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.987Z root INFO Backend d.onStart: 0.3 ms [Finished 0.503 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.988Z root INFO Backend d.configure: 0.1 ms [Finished 0.503 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.989Z root INFO Backend d.initialize: 21.1 ms [Finished 0.503 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.989Z root INFO Backend c.onStart: 0.3 ms [Finished 0.503 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.989Z root INFO Backend a.configure: 1.8 ms [Finished 0.505 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.990Z config INFO >>> Initializing CLI configuration...
+2024-03-06 10:23:40 2024-03-06T16:23:40.990Z root INFO Backend c.initialize: 0.5 ms [Finished 0.505 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.990Z root INFO Backend R.onStart: 1.9 ms [Finished 0.507 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.991Z config INFO Loading CLI configuration from /home/irene/.arduinoIDE/arduino-cli.yaml...
+2024-03-06 10:23:40 2024-03-06T16:23:40.991Z daemon INFO Starting daemon from /opt/arduino-ide/resources/app/lib/backend/resources/arduino-cli...
+2024-03-06 10:23:40 2024-03-06T16:23:40.991Z root INFO Backend a.initialize: 0.7 ms [Finished 0.508 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.991Z root INFO Backend w.onStart: 1.5 ms [Finished 0.509 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.991Z root INFO Backend r.configure: 2.1 ms [Finished 0.509 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.991Z discovery-log INFO start
+2024-03-06 10:23:40 2024-03-06T16:23:40.991Z discovery-log INFO start new deferred
+2024-03-06 10:23:40 2024-03-06T16:23:40.991Z root INFO Backend d.initialize: 0.3 ms [Finished 0.510 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.991Z root INFO Backend y.onStart: 1.3 ms [Finished 0.511 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.991Z root INFO Backend r.configure: 1.1 ms [Finished 0.511 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.992Z root INFO Backend a.onStart: 0.4 ms [Finished 0.512 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.992Z root INFO Backend h.configure: 0.3 ms [Finished 0.512 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.992Z root INFO Backend s.configure: 0.1 ms [Finished 0.512 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.992Z root INFO Backend l.configure: 0.0 ms [Finished 0.512 s after backend start]
+2024-03-06 10:23:40 2024-03-06T16:23:40.993Z root INFO Theia app listening on http://127.0.0.1:34697.
+2024-03-06 10:23:40 2024-03-06T16:23:40.993Z root INFO Finished starting backend application: 1.7 ms [Finished 0.514 s after backend start]
+2024-03-06 10:23:41 2024-03-06T16:23:40.994Z root WARN The local plugin referenced by local-dir:/home/irene/.arduinoIDE/extensions does not exist.
+2024-03-06 10:23:41 2024-03-06T16:23:40.994Z root WARN The local plugin referenced by local-dir:/home/irene/.arduinoIDE/plugins does not exist.
+2024-03-06 10:23:41 2024-03-06T16:23:40.997Z config INFO Loaded CLI configuration: {"board_manager":{"additional_urls":[]},"build_cache":{"compilations_before_purge":10,"ttl":"720h0m0s"},"daemon":{"port":"50051"},"directories":{"data":"/home/irene/.arduino15","downloads":"/home/irene/.arduino15/staging","user":"/home/irene/Arduino"},"library":{"enable_unsafe_install":false},"logging":{"file":"","format":"text","level":"info"},"metrics":{"addr":":9090","enabled":true},"output":{"no_color":false},"sketch":{"always_export_binaries":false},"updater":{"enable_notification":true}}
+2024-03-06 10:23:41 2024-03-06T16:23:40.997Z config INFO 'directories.data' and 'directories.user' are set in the CLI configuration model.
+2024-03-06 10:23:41 2024-03-06T16:23:40.997Z config INFO Loaded the CLI configuration.
+2024-03-06 10:23:41 2024-03-06T16:23:41.009Z config INFO Mapped the CLI configuration: {"dataDirUri":"file:///home/irene/.arduino15","sketchDirUri":"file:///home/irene/Arduino","additionalUrls":[],"network":"none","locale":"en"}
+2024-03-06 10:23:41 2024-03-06T16:23:41.009Z config INFO Validating the CLI configuration...
+2024-03-06 10:23:41 2024-03-06T16:23:41.010Z config INFO The CLI config is valid.
+2024-03-06 10:23:41 2024-03-06T16:23:41.010Z config INFO <<< Initialized the CLI configuration.
+2024-03-06 10:23:41 2024-03-06T16:23:41.023Z root INFO Resolve plugins list: 32.1 ms [Finished 0.543 s after backend start]
+2024-03-06 10:23:41 2024-03-06T16:23:41.047Z daemon INFO time="2024-03-06T10:23:41-06:00" level=info msg="Using config file: /home/irene/.arduinoIDE/arduino-cli.yaml"
+time="2024-03-06T10:23:41-06:00" level=info msg="arduino-cli version 0.35.3"
+time="2024-03-06T10:23:41-06:00" level=info msg="Executing `arduino-cli daemon`"
+2024-03-06 10:23:41 2024-03-06T16:23:41.095Z daemon INFO Daemon is now listening on 127.0.0.1:37857
+{"IP":"127.0.0.1","Port":"37857"}
+2024-03-06 10:23:41 2024-03-06T16:23:41.095Z daemon INFO Daemon is running.
+2024-03-06 10:23:41 2024-03-06T16:23:41.212Z daemon INFO time="2024-03-06T10:23:41-06:00" level=info msg="Checking signature" index=/home/irene/.arduino15/package_index.json signatureFile=/home/irene/.arduino15/package_index.json.sig trusted=true
+time="2024-03-06T10:23:41-06:00" level=info msg="Loading hardware from: /home/irene/.arduino15/packages"
+time="2024-03-06T10:23:41-06:00" level=info msg="Loading package arduino from: /home/irene/.arduino15/packages/arduino/hardware"
+time="2024-03-06T10:23:41-06:00" level=info msg="Missing signature file" index=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/installed.json
+time="2024-03-06T10:23:41-06:00" level=info msg="Adding monitor tool" protocol=serial tool="builtin:serial-monitor"
+time="2024-03-06T10:23:41-06:00" level=info msg="Loaded platform" platform="arduino:avr@1.8.6"
+time="2024-03-06T10:23:41-06:00" level=info msg="Checking existence of 'tools' path: /home/irene/.arduino15/packages/arduino/tools"
+time="2024-03-06T10:23:41-06:00" level=info msg="Loading tools from dir: /home/irene/.arduino15/packages/arduino/tools"
+time="2024-03-06T10:23:41-06:00" level=info msg="Loaded tool" tool="arduino:arduinoOTA@1.3.0"
+time="2024-03-06T10:23:41-06:00" level=info msg="Loaded tool" tool="arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7"
+time="2024-03-06T10:23:41-06:00" level=info msg="Loaded tool" tool="arduino:avrdude@6.3.0-arduino17"
+time="2024-03-06T10:23:41-06:00" level=info msg="Loading package builtin from: /home/irene/.arduino15/packages/builtin"
+time="2024-03-06T10:23:41-06:00" level=info msg="Checking existence of 'tools' path: /home/irene/.arduino15/packages/builtin/tools"
+time="2024-03-06T10:23:41-06:00" level=info msg="Loading tools from dir: /home/irene/.arduino15/packages/builtin/tools"
+time="2024-03-06T10:23:41-06:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2024-03-06T10:23:41-06:00" level=info msg="Loaded tool" tool="builtin:dfu-discovery@0.1.2"
+time="2024-03-06T10:23:41-06:00" level=info msg="Loaded tool" tool="builtin:mdns-discovery@1.0.9"
+time="2024-03-06T10:23:41-06:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.4.0"
+time="2024-03-06T10:23:41-06:00" level=info msg="Loaded tool" tool="builtin:serial-monitor@0.13.0"
+time="2024-03-06T10:23:41-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T10:23:41-06:00" level=info msg="Loading libraries index file" index=/home/irene/.arduino15/library_index.json
+2024-03-06 10:23:41 2024-03-06T16:23:41.404Z daemon INFO time="2024-03-06T10:23:41-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T10:23:41-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 10:23:41 2024-03-06T16:23:41.409Z discovery-log INFO start resolved watching
+2024-03-06 10:23:41 2024-03-06T16:23:41.417Z daemon INFO time="2024-03-06T10:23:41-06:00" level=info msg="starting discovery builtin:mdns-discovery process"
+time="2024-03-06T10:23:41-06:00" level=info msg="starting discovery builtin:serial-discovery process"
+time="2024-03-06T10:23:41-06:00" level=info msg="started discovery builtin:serial-discovery process"
+time="2024-03-06T10:23:41-06:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.35.3\" to discovery builtin:serial-discovery"
+time="2024-03-06T10:23:41-06:00" level=info msg="started discovery builtin:mdns-discovery process"
+time="2024-03-06T10:23:41-06:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.35.3\" to discovery builtin:mdns-discovery"
+time="2024-03-06T10:23:41-06:00" level=info msg="from discovery builtin:serial-discovery received message type: hello, message: OK, protocol version: 1"
+time="2024-03-06T10:23:41-06:00" level=info msg="sending command START_SYNC to discovery builtin:serial-discovery"
+2024-03-06 10:23:41 2024-03-06T16:23:41.448Z daemon INFO time="2024-03-06T10:23:41-06:00" level=info msg="from discovery builtin:serial-discovery received message type: start_sync, message: OK"
+time="2024-03-06T10:23:41-06:00" level=info msg="from discovery builtin:serial-discovery received message type: add, port: /dev/ttyACM0"
+time="2024-03-06T10:23:41-06:00" level=info msg="from discovery builtin:mdns-discovery received message type: hello, message: OK, protocol version: 1"
+time="2024-03-06T10:23:41-06:00" level=info msg="sending command START_SYNC to discovery builtin:mdns-discovery"
+time="2024-03-06T10:23:41-06:00" level=info msg="from discovery builtin:mdns-discovery received message type: start_sync, message: OK"
+2024-03-06 10:23:41 2024-03-06T16:23:41.450Z discovery-log INFO {"eventType":"add","port":{"matchingBoardsList":[{"name":"Arduino Uno","fqbn":"arduino:avr:uno","isHidden":false}],"port":{"address":"/dev/ttyACM0","label":"/dev/ttyACM0","protocol":"serial","protocolLabel":"Serial Port (USB)","propertiesMap":[["pid","0x0043"],["serialNumber","75331313133351817022"],["vid","0x2341"]],"hardwareId":"75331313133351817022"}},"error":""}
+2024-03-06 10:23:41 2024-03-06T16:23:41.843Z root INFO Deploy plugins list: 32.1 ms [Finished 1.363 s after backend start]
+2024-03-06 10:23:42 Opening channel for service path '/services/electron-window'.
+2024-03-06 10:23:42 Opening channel for service path '/services/ide-updater'.
+2024-03-06 10:23:42 2024-03-06T16:23:42.499Z root WARN Frontend a.configure took longer than the expected maximum 100 milliseconds: 212.3 ms [Finished 1.415 s after frontend start]
+2024-03-06 10:23:42 2024-03-06T16:23:42.504Z root WARN A command editor.action.toggleStickyScroll is already registered.
+2024-03-06 10:23:42 2024-03-06T16:23:42.663Z root INFO Start frontend contributions: 446.2 ms [Finished 1.578 s after frontend start]
+2024-03-06 10:23:42 2024-03-06T16:23:42.664Z root INFO Changed application state from 'init' to 'started_contributions'.
+2024-03-06 10:23:42 2024-03-06T16:23:42.678Z root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2024-03-06 10:23:42 2024-03-06T16:23:42.678Z root INFO >>> Restoring the layout state...
+2024-03-06 10:23:42 2024-03-06T16:23:42.678Z root INFO <<< Nothing to restore.
+2024-03-06 10:23:42 2024-03-06T16:23:42.714Z root INFO Initialize the workbench layout: 27.8 ms [Finished 1.647 s after frontend start]
+2024-03-06 10:23:42 2024-03-06T16:23:42.729Z root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2024-03-06 10:23:42 2024-03-06T16:23:42.760Z root INFO [801eecb1-f198-41c9-b221-d1ee770c3b90] Waiting for backend deployment: 126.7 ms [Finished 1.699 s after frontend start]
+2024-03-06 10:23:43 2024-03-06T16:23:43.215Z root ERROR Request initAuthSession failed with error: The name is not activatable Error: The name is not activatable
+2024-03-06 10:23:43 2024-03-06T16:23:43.219Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296) starting instance
+2024-03-06 10:23:43 2024-03-06T16:23:43.734Z root INFO [801eecb1-f198-41c9-b221-d1ee770c3b90] Sync of 23 plugins: 949.3 ms [Finished 2.648 s after frontend start]
+2024-03-06 10:23:43 2024-03-06T16:23:43.734Z root INFO [801eecb1-f198-41c9-b221-d1ee770c3b90] Loading plugin contributions
+2024-03-06 10:23:43 2024-03-06T16:23:43.734Z root INFO [801eecb1-f198-41c9-b221-d1ee770c3b90] Load contributions of 23 plugins: 24.8 ms [Finished 2.673 s after frontend start]
+2024-03-06 10:23:43 2024-03-06T16:23:43.842Z root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2024-03-06 10:23:43 2024-03-06T16:23:43.842Z root WARN a registered grammar configuration for 'cpp' language is overridden
+2024-03-06 10:23:44 2024-03-06T16:23:44.074Z root INFO Replace loading indicator with ready workbench UI (animation): 1132.4 ms [Finished 2.804 s after frontend start]
+2024-03-06 10:23:44 2024-03-06T16:23:44.074Z root INFO Changed application state from 'initialized_layout' to 'ready'.
+2024-03-06 10:23:44 2024-03-06T16:23:44.074Z root WARN Linked preference "workbench.colorCustomizations" not found.
+2024-03-06 10:23:44 2024-03-06T16:23:44.075Z root INFO Frontend application start: 1576.4 ms [Finished 3.562 s after backend start]
+2024-03-06 10:23:44 Checking for update
+2024-03-06 10:23:44 2024-03-06T16:23:44.436Z root ERROR ---- !!!SLOW!!! DURATION: search took 329.836 ms. Args: [{"type":"Updatable"}] ----
+2024-03-06 10:23:44 2024-03-06T16:23:44.472Z daemon INFO time="2024-03-06T10:23:44-06:00" level=info msg="Updating libraries index"
+2024-03-06 10:23:44 2024-03-06T16:23:44.472Z daemon INFO time="2024-03-06T10:23:44-06:00" level=info msg="Updating index" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+time="2024-03-06T10:23:44-06:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/library_index.tar.bz2"
+2024-03-06 10:23:44 2024-03-06T16:23:44.472Z daemon INFO time="2024-03-06T10:23:44-06:00" level=info msg="Starting download" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+2024-03-06 10:23:44 2024-03-06T16:23:44.474Z root INFO core-client-provider [platform-index] Downloading index: package_index.tar.bz2
+
+2024-03-06 10:23:44 2024-03-06T16:23:44.474Z root INFO core-client-provider [library-index] Downloading index: library_index.tar.bz2
+
+2024-03-06 10:23:44 Update for version 2.3.2 is not available (latest version: 2.3.2, downgrade is allowed).
+2024-03-06 10:23:44 2024-03-06T16:23:44.580Z root ERROR [hosted-plugin: 1296] Conflict in settings file Default: Ignoring cortex-debug.armToolchainPath.linux as cortex-debug.armToolchainPath is null
+Conflict in settings file Default: Ignoring cortex-debug.armToolchainPath.osx as cortex-debug.armToolchainPath is null
+Conflict in settings file Default: Ignoring cortex-debug.armToolchainPath.windows as cortex-debug.armToolchainPath is null
+Conflict in settings file Default: Ignoring cortex-debug.JLinkGDBServerPath.linux as cortex-debug.JLinkGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.JLinkGDBServerPath.osx as cortex-debug.JLinkGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.JLinkGDBServerPath.windows as cortex-debug.JLinkGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.openocdPath.linux as cortex-debug.openocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.openocdPath.osx as cortex-debug.openocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.openocdPath.windows as cortex-debug.openocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.pyocdPath.linux as cortex-debug.pyocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.pyocdPath.osx as cortex-debug.pyocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.pyocdPath.windows as cortex-debug.pyocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.PEGDBServerPath.linux as cortex-debug.PEGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.PEGDBServerPath.osx as cortex-debug.PEGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.PEGDBServerPath.windows as cortex-debug.PEGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stutilPath.linux as cortex-debug.stutilPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stutilPath.osx as cortex-debug.stutilPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stutilPath.windows as cortex-debug.stutilPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stlinkPath.linux as cortex-debug.stlinkPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stlinkPath.osx as cortex-debug.stlinkPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stlinkPath.windows as cortex-debug.stlinkPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stm32cubeprogrammer.linux as cortex-debug.stm32cubeprogrammer is null
+Conflict in settings file Default: Ignoring cortex-debug.stm32cubeprogrammer.osx as cortex-debug.stm32cubeprogrammer is null
+Conflict in settings file Default: Ignoring cortex-debug.stm32cubeprogrammer.windows as cortex-debug.stm32cubeprogrammer is null
+2024-03-06 10:23:44 2024-03-06T16:23:44.593Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): PluginManagerExtImpl/init()
+2024-03-06 10:23:44 2024-03-06T16:23:44.595Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(vscode-arduino-api@0.1.2 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.645Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(cortex-debug@1.5.1 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.645Z root INFO [hosted-plugin: 1296] Debugger contribution has been registered: cortex-debug
+2024-03-06 10:23:44 2024-03-06T16:23:44.646Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(vscode-arduino-tools@0.1.3 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.646Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(cpp@1.52.1 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.647Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(json@1.46.1 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.647Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(json-language-features@1.46.1 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.648Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(vscode-language-pack-bg@1.48.3 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.649Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(vscode-language-pack-cs@1.80.0 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.649Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(vscode-language-pack-de@1.80.0 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.650Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(vscode-language-pack-es@1.80.0 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.651Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(vscode-language-pack-fr@1.80.0 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.651Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(vscode-language-pack-hu@1.48.3 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.652Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(vscode-language-pack-it@1.80.0 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.652Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(vscode-language-pack-ja@1.80.0 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.652Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(vscode-language-pack-ko@1.80.0 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.652Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(vscode-language-pack-nl@1.48.3 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.653Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(vscode-language-pack-pl@1.80.0 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.653Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(vscode-language-pack-pt-BR@1.80.0 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+PLUGIN_HOST(1296): initializing(vscode-language-pack-ru@1.80.0 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.654Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(vscode-language-pack-tr@1.80.0 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.654Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(vscode-language-pack-uk@1.48.3 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.654Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(vscode-language-pack-zh-hans@1.80.0 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.654Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): initializing(vscode-language-pack-zh-hant@1.80.0 with /opt/arduino-ide/resources/app/lib/backend/plugin-vscode-init)
+2024-03-06 10:23:44 2024-03-06T16:23:44.659Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): PluginManagerExtImpl/loadPlugin(/opt/arduino-ide/resources/app/plugins/vscode-arduino-api/extension/dist/extension.js)
+2024-03-06 10:23:44 2024-03-06T16:23:44.663Z root INFO [hosted-plugin: 1296] calling activation function on Arduino IDE API for VS Code extensions
+2024-03-06 10:23:44 2024-03-06T16:23:44.666Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): PluginManagerExtImpl/loadPlugin(/opt/arduino-ide/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2024-03-06 10:23:44 2024-03-06T16:23:44.691Z root INFO [hosted-plugin: 1296] calling activation function on JSON Language Features (built-in)
+2024-03-06 10:23:44 2024-03-06T16:23:44.694Z root INFO [801eecb1-f198-41c9-b221-d1ee770c3b90] Starting plugins.
+2024-03-06 10:23:44 2024-03-06T16:23:44.708Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): PluginManagerExtImpl/loadPlugin(/opt/arduino-ide/resources/app/plugins/cortex-debug/extension/dist/extension.js)
+2024-03-06 10:23:44 2024-03-06T16:23:44.734Z root INFO [hosted-plugin: 1296] Debug configuration provider has been registered: cortex-debug, trigger: 1
+2024-03-06 10:23:44 2024-03-06T16:23:44.735Z root INFO [hosted-plugin: 1296] calling activation function on Cortex-Debug
+2024-03-06 10:23:44 2024-03-06T16:23:44.738Z root INFO [hosted-plugin: 1296] GDB server console created
+2024-03-06 10:23:44 2024-03-06T16:23:44.744Z root INFO [801eecb1-f198-41c9-b221-d1ee770c3b90] Start of 23 plugins: 998.6 ms [Finished 3.685 s after frontend start]
+2024-03-06 10:23:46 2024-03-06T16:23:46.138Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="Checking signature" index=/home/irene/.arduino15/package_index.json signatureFile=/home/irene/.arduino15/package_index.json.sig trusted=true
+2024-03-06 10:23:46 2024-03-06T16:23:46.138Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="Loading hardware from: /home/irene/.arduino15/packages"
+2024-03-06 10:23:46 2024-03-06T16:23:46.138Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="Loading package arduino from: /home/irene/.arduino15/packages/arduino/hardware"
+2024-03-06 10:23:46 2024-03-06T16:23:46.139Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="Missing signature file" index=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/installed.json
+2024-03-06 10:23:46 2024-03-06T16:23:46.140Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="Adding monitor tool" protocol=serial tool="builtin:serial-monitor"
+time="2024-03-06T10:23:46-06:00" level=info msg="Loaded platform" platform="arduino:avr@1.8.6"
+2024-03-06 10:23:46 2024-03-06T16:23:46.141Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="Checking existence of 'tools' path: /home/irene/.arduino15/packages/arduino/tools"
+time="2024-03-06T10:23:46-06:00" level=info msg="Loading tools from dir: /home/irene/.arduino15/packages/arduino/tools"
+time="2024-03-06T10:23:46-06:00" level=info msg="Loaded tool" tool="arduino:arduinoOTA@1.3.0"
+time="2024-03-06T10:23:46-06:00" level=info msg="Loaded tool" tool="arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7"
+2024-03-06 10:23:46 2024-03-06T16:23:46.141Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="Loaded tool" tool="arduino:avrdude@6.3.0-arduino17"
+2024-03-06 10:23:46 2024-03-06T16:23:46.141Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="Loading package builtin from: /home/irene/.arduino15/packages/builtin"
+2024-03-06 10:23:46 2024-03-06T16:23:46.141Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="Checking existence of 'tools' path: /home/irene/.arduino15/packages/builtin/tools"
+time="2024-03-06T10:23:46-06:00" level=info msg="Loading tools from dir: /home/irene/.arduino15/packages/builtin/tools"
+2024-03-06 10:23:46 2024-03-06T16:23:46.141Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+2024-03-06 10:23:46 2024-03-06T16:23:46.141Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="Loaded tool" tool="builtin:dfu-discovery@0.1.2"
+2024-03-06 10:23:46 2024-03-06T16:23:46.141Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="Loaded tool" tool="builtin:mdns-discovery@1.0.9"
+2024-03-06 10:23:46 2024-03-06T16:23:46.141Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.4.0"
+2024-03-06 10:23:46 2024-03-06T16:23:46.141Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="Loaded tool" tool="builtin:serial-monitor@0.13.0"
+2024-03-06 10:23:46 2024-03-06T16:23:46.141Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="sending command QUIT to discovery builtin:serial-discovery"
+2024-03-06 10:23:46 2024-03-06T16:23:46.141Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="from discovery builtin:serial-discovery received message type: quit, message: OK"
+2024-03-06 10:23:46 2024-03-06T16:23:46.141Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="killing discovery builtin:serial-discovery process"
+2024-03-06 10:23:46 2024-03-06T16:23:46.141Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="Discovery event channel closed builtin:serial-discovery. Exiting goroutine."
+2024-03-06 10:23:46 2024-03-06T16:23:46.142Z discovery-log INFO {"eventType":"remove","port":{"matchingBoardsList":[],"port":{"address":"/dev/ttyACM0","label":"/dev/ttyACM0","protocol":"serial","protocolLabel":"Serial Port (USB)","propertiesMap":[],"hardwareId":""}},"error":""}
+2024-03-06 10:23:46 2024-03-06T16:23:46.142Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="killed discovery builtin:serial-discovery process"
+time="2024-03-06T10:23:46-06:00" level=info msg="Closed and removed discovery builtin:serial-discovery"
+time="2024-03-06T10:23:46-06:00" level=info msg="sending command QUIT to discovery builtin:mdns-discovery"
+time="2024-03-06T10:23:46-06:00" level=info msg="from discovery builtin:mdns-discovery received message type: quit, message: OK"
+time="2024-03-06T10:23:46-06:00" level=info msg="killing discovery builtin:mdns-discovery process"
+time="2024-03-06T10:23:46-06:00" level=info msg="Discovery event channel closed builtin:mdns-discovery. Exiting goroutine."
+2024-03-06 10:23:46 2024-03-06T16:23:46.142Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="killed discovery builtin:mdns-discovery process"
+time="2024-03-06T10:23:46-06:00" level=info msg="Closed and removed discovery builtin:mdns-discovery"
+2024-03-06 10:23:46 2024-03-06T16:23:46.142Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="starting discovery builtin:serial-discovery process"
+2024-03-06 10:23:46 2024-03-06T16:23:46.142Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="started discovery builtin:serial-discovery process"
+time="2024-03-06T10:23:46-06:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.35.3\" to discovery builtin:serial-discovery"
+2024-03-06 10:23:46 2024-03-06T16:23:46.143Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="from discovery builtin:serial-discovery received message type: hello, message: OK, protocol version: 1"
+time="2024-03-06T10:23:46-06:00" level=info msg="sending command START_SYNC to discovery builtin:serial-discovery"
+2024-03-06 10:23:46 2024-03-06T16:23:46.145Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="from discovery builtin:serial-discovery received message type: start_sync, message: OK"
+2024-03-06 10:23:46 2024-03-06T16:23:46.145Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="from discovery builtin:serial-discovery received message type: add, port: /dev/ttyACM0"
+time="2024-03-06T10:23:46-06:00" level=info msg="starting discovery builtin:mdns-discovery process"
+2024-03-06 10:23:46 2024-03-06T16:23:46.146Z discovery-log INFO {"eventType":"add","port":{"matchingBoardsList":[{"name":"Arduino Uno","fqbn":"arduino:avr:uno","isHidden":false}],"port":{"address":"/dev/ttyACM0","label":"/dev/ttyACM0","protocol":"serial","protocolLabel":"Serial Port (USB)","propertiesMap":[["pid","0x0043"],["serialNumber","75331313133351817022"],["vid","0x2341"]],"hardwareId":"75331313133351817022"}},"error":""}
+2024-03-06 10:23:46 2024-03-06T16:23:46.146Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="started discovery builtin:mdns-discovery process"
+time="2024-03-06T10:23:46-06:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.35.3\" to discovery builtin:mdns-discovery"
+2024-03-06 10:23:46 2024-03-06T16:23:46.147Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="from discovery builtin:mdns-discovery received message type: hello, message: OK, protocol version: 1"
+time="2024-03-06T10:23:46-06:00" level=info msg="sending command START_SYNC to discovery builtin:mdns-discovery"
+2024-03-06 10:23:46 2024-03-06T16:23:46.147Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="from discovery builtin:mdns-discovery received message type: start_sync, message: OK"
+2024-03-06 10:23:46 2024-03-06T16:23:46.147Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 10:23:46 2024-03-06T16:23:46.147Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="Loading libraries index file" index=/home/irene/.arduino15/library_index.json
+2024-03-06 10:23:46 2024-03-06T16:23:46.303Z daemon INFO time="2024-03-06T10:23:46-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T10:23:46-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 10:23:54 2024-03-06T16:23:54.158Z root ERROR Failed to get debug config: arduino:avr:uno, undefined Error: Debugging is not supported.
+    at Object.callback (/opt/arduino-ide/resources/app/lib/backend/main.js:2:81196)
+    at Object.onReceiveStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:788562)
+    at Object.onReceiveStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:784513)
+    at Object.onReceiveStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:783958)
+    at /opt/arduino-ide/resources/app/lib/backend/main.js:2:870080
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-03-06 10:23:54 2024-03-06T16:23:54.158Z root ERROR Request checkDebugEnabled failed with error: Debugging is not supported. Error: Debugging is not supported.
+    at Object.callback (/opt/arduino-ide/resources/app/lib/backend/main.js:2:81196)
+    at Object.onReceiveStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:788562)
+    at Object.onReceiveStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:784513)
+    at Object.onReceiveStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:783958)
+    at /opt/arduino-ide/resources/app/lib/backend/main.js:2:870080
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-03-06 10:23:54 2024-03-06T16:23:54.158Z daemon INFO time="2024-03-06T10:23:54-06:00" level=info msg="Tool required for debug" tool="arduino:arduinoOTA@1.3.0"
+time="2024-03-06T10:23:54-06:00" level=info msg="Tool required for debug" tool="arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7"
+time="2024-03-06T10:23:54-06:00" level=info msg="Tool required for debug" tool="arduino:avrdude@6.3.0-arduino17"
+time="2024-03-06T10:23:54-06:00" level=info msg="Tool required for debug" tool="builtin:dfu-discovery@0.1.2"
+time="2024-03-06T10:23:54-06:00" level=info msg="Tool required for debug" tool="builtin:ctags@5.8-arduino11"
+time="2024-03-06T10:23:54-06:00" level=info msg="Tool required for debug" tool="builtin:serial-discovery@1.4.0"
+time="2024-03-06T10:23:54-06:00" level=info msg="Tool required for debug" tool="builtin:mdns-discovery@1.0.9"
+time="2024-03-06T10:23:54-06:00" level=info msg="Tool required for debug" tool="builtin:serial-monitor@0.13.0"
+2024-03-06 10:23:54 2024-03-06T16:23:54.175Z root INFO Starting language server: arduino:avr:uno
+2024-03-06 10:23:54 2024-03-06T16:23:54.207Z root INFO [hosted-plugin: 1296] PLUGIN_HOST(1296): PluginManagerExtImpl/loadPlugin(/opt/arduino-ide/resources/app/plugins/vscode-arduino-tools/extension/dist/extension.js)
+2024-03-06 10:23:54 2024-03-06T16:23:54.232Z root INFO [hosted-plugin: 1296] calling activation function on VS Code Arduino Tools
+2024-03-06 10:23:54 2024-03-06T16:23:54.288Z daemon INFO time="2024-03-06T10:23:54-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T10:23:54-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T10:23:54-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 10:23:54 2024-03-06T16:23:54.501Z daemon INFO time="2024-03-06T10:23:54-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T10:23:54-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 10:23:54 2024-03-06T16:23:54.501Z daemon INFO time="2024-03-06T10:23:54-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 10:28:44 2024-03-06T16:28:44.655Z daemon INFO time="2024-03-06T10:28:44-06:00" level=info msg="from discovery builtin:serial-discovery received message type: remove, port: /dev/ttyACM0"
+2024-03-06 10:28:44 2024-03-06T16:28:44.656Z discovery-log INFO {"eventType":"remove","port":{"matchingBoardsList":[],"port":{"address":"/dev/ttyACM0","label":"","protocol":"serial","protocolLabel":"","propertiesMap":[],"hardwareId":""}},"error":""}
+2024-03-06 10:29:32 2024-03-06T16:29:32.499Z daemon INFO time="2024-03-06T10:29:32-06:00" level=info msg="from discovery builtin:serial-discovery received message type: add, port: /dev/ttyACM0"
+2024-03-06 10:29:32 2024-03-06T16:29:32.500Z discovery-log INFO {"eventType":"add","port":{"matchingBoardsList":[{"name":"Arduino Uno","fqbn":"arduino:avr:uno","isHidden":false}],"port":{"address":"/dev/ttyACM0","label":"/dev/ttyACM0","protocol":"serial","protocolLabel":"Serial Port (USB)","propertiesMap":[["pid","0x0043"],["serialNumber","75331313133351817022"],["vid","0x2341"]],"hardwareId":"75331313133351817022"}},"error":""}
+2024-03-06 10:29:37 2024-03-06T16:29:37.350Z daemon INFO time="2024-03-06T10:29:37-06:00" level=info msg="from discovery builtin:serial-discovery received message type: remove, port: /dev/ttyACM0"
+2024-03-06 10:29:37 2024-03-06T16:29:37.351Z discovery-log INFO {"eventType":"remove","port":{"matchingBoardsList":[],"port":{"address":"/dev/ttyACM0","label":"","protocol":"serial","protocolLabel":"","propertiesMap":[],"hardwareId":""}},"error":""}
+2024-03-06 11:07:07 2024-03-06T17:07:07.412Z daemon INFO time="2024-03-06T11:07:07-06:00" level=info msg="from discovery builtin:serial-discovery received message type: add, port: /dev/ttyACM0"
+2024-03-06 11:07:07 2024-03-06T17:07:07.413Z discovery-log INFO {"eventType":"add","port":{"matchingBoardsList":[{"name":"Arduino Uno","fqbn":"arduino:avr:uno","isHidden":false}],"port":{"address":"/dev/ttyACM0","label":"/dev/ttyACM0","protocol":"serial","protocolLabel":"Serial Port (USB)","propertiesMap":[["pid","0x0043"],["serialNumber","75331313133351817022"],["vid","0x2341"]],"hardwareId":"75331313133351817022"}},"error":""}
+2024-03-06 11:07:10 2024-03-06T17:07:10.325Z daemon INFO time="2024-03-06T11:07:10-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:07:10-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:07:10-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:07:10 2024-03-06T17:07:10.873Z root INFO Executing 'arduino.languageserver.notifyBuildDidComplete' with "file:///tmp/arduino/sketches/E8BFF5A61349B737336E5F7470F101C3"
+2024-03-06 11:07:10 2024-03-06T17:07:10.924Z daemon INFO time="2024-03-06T11:07:10-06:00" level=info msg="Tool required for debug" tool="arduino:arduinoOTA@1.3.0"
+time="2024-03-06T11:07:10-06:00" level=info msg="Tool required for debug" tool="arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7"
+time="2024-03-06T11:07:10-06:00" level=info msg="Tool required for debug" tool="arduino:avrdude@6.3.0-arduino17"
+time="2024-03-06T11:07:10-06:00" level=info msg="Tool required for debug" tool="builtin:mdns-discovery@1.0.9"
+time="2024-03-06T11:07:10-06:00" level=info msg="Tool required for debug" tool="builtin:serial-monitor@0.13.0"
+2024-03-06 11:07:10 2024-03-06T17:07:10.924Z daemon INFO time="2024-03-06T11:07:10-06:00" level=info msg="Tool required for debug" tool="builtin:dfu-discovery@0.1.2"
+time="2024-03-06T11:07:10-06:00" level=info msg="Tool required for debug" tool="builtin:ctags@5.8-arduino11"
+time="2024-03-06T11:07:10-06:00" level=info msg="Tool required for debug" tool="builtin:serial-discovery@1.4.0"
+2024-03-06 11:07:10 2024-03-06T17:07:10.925Z root ERROR Failed to get debug config: arduino:avr:uno, undefined Error: Debugging is not supported.
+    at Object.callback (/opt/arduino-ide/resources/app/lib/backend/main.js:2:81196)
+    at Object.onReceiveStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:788562)
+    at Object.onReceiveStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:784513)
+    at Object.onReceiveStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:783958)
+    at /opt/arduino-ide/resources/app/lib/backend/main.js:2:870080
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-03-06 11:07:10 2024-03-06T17:07:10.925Z root ERROR Request checkDebugEnabled failed with error: Debugging is not supported. Error: Debugging is not supported.
+    at Object.callback (/opt/arduino-ide/resources/app/lib/backend/main.js:2:81196)
+    at Object.onReceiveStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:788562)
+    at Object.onReceiveStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:784513)
+    at Object.onReceiveStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:783958)
+    at /opt/arduino-ide/resources/app/lib/backend/main.js:2:870080
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-03-06 11:07:11 2024-03-06T17:07:11.901Z daemon INFO time="2024-03-06T11:07:11-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:07:11-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 11:07:11 2024-03-06T17:07:11.901Z daemon INFO time="2024-03-06T11:07:11-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:07:13 2024-03-06T17:07:13.103Z root INFO Received port after upload [arduino+serial:///dev/ttyACM0, arduino:avr:uno, sketch_mar6a]. Before port: {"address":"/dev/ttyACM0","addressLabel":"/dev/ttyACM0","protocol":"serial","protocolLabel":"Serial Port (USB)","properties":{"pid":"0x0043","serialNumber":"75331313133351817022","vid":"0x2341"},"hardwareId":"75331313133351817022"}, after port: {"address":"/dev/ttyACM0","addressLabel":"/dev/ttyACM0","protocol":"serial","protocolLabel":"Serial Port (USB)","properties":{"pid":"0x0043","serialNumber":"75331313133351817022","vid":"0x2341"},"hardwareId":"75331313133351817022"}
+2024-03-06 11:08:16 2024-03-06T17:08:16.162Z daemon INFO time="2024-03-06T11:08:16-06:00" level=info msg="from discovery builtin:serial-discovery received message type: remove, port: /dev/ttyACM0"
+2024-03-06 11:08:16 2024-03-06T17:08:16.162Z discovery-log INFO {"eventType":"remove","port":{"matchingBoardsList":[],"port":{"address":"/dev/ttyACM0","label":"","protocol":"serial","protocolLabel":"","propertiesMap":[],"hardwareId":""}},"error":""}
+2024-03-06 11:10:08 2024-03-06T17:10:08.996Z daemon INFO time="2024-03-06T11:10:08-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:10:08-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 11:10:08 2024-03-06T17:10:08.997Z daemon INFO time="2024-03-06T11:10:08-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:10:10 2024-03-06T17:10:10.177Z daemon INFO time="2024-03-06T11:10:10-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+2024-03-06 11:10:10 2024-03-06T17:10:10.177Z daemon INFO time="2024-03-06T11:10:10-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:10:10-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:10:24 2024-03-06T17:10:24.723Z daemon INFO time="2024-03-06T11:10:24-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:10:24-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:10:24-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:10:25 2024-03-06T17:10:25.899Z daemon INFO time="2024-03-06T11:10:25-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:10:25-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:10:25-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:11:02 2024-03-06T17:11:02.318Z daemon INFO time="2024-03-06T11:11:02-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:11:02-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:11:02-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:11:03 2024-03-06T17:11:03.475Z daemon INFO time="2024-03-06T11:11:03-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:11:03-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 11:11:03 2024-03-06T17:11:03.475Z daemon INFO time="2024-03-06T11:11:03-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:13:56 2024-03-06T17:13:56.548Z daemon INFO time="2024-03-06T11:13:56-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+2024-03-06 11:13:56 2024-03-06T17:13:56.548Z daemon INFO time="2024-03-06T11:13:56-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:13:56-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:13:59 2024-03-06T17:13:59.053Z daemon INFO time="2024-03-06T11:13:59-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:13:59-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:13:59-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:14:31 2024-03-06T17:14:31.366Z daemon INFO time="2024-03-06T11:14:31-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:14:31-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:14:31-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:14:32 2024-03-06T17:14:32.590Z daemon INFO time="2024-03-06T11:14:32-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:14:32-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:14:32-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:14:36 2024-03-06T17:14:36.691Z daemon INFO time="2024-03-06T11:14:36-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:14:36-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:14:36-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:14:37 2024-03-06T17:14:37.873Z daemon INFO time="2024-03-06T11:14:37-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:14:37-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:14:37-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:15:25 2024-03-06T17:15:25.402Z daemon INFO time="2024-03-06T11:15:25-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:15:25-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 11:15:25 2024-03-06T17:15:25.403Z daemon INFO time="2024-03-06T11:15:25-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:46:46 2024-03-06T17:46:46.731Z daemon INFO time="2024-03-06T11:46:46-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:46:46-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:46:46-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:46:47 2024-03-06T17:46:47.912Z daemon INFO time="2024-03-06T11:46:47-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:46:47-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 11:46:47 2024-03-06T17:46:47.912Z daemon INFO time="2024-03-06T11:46:47-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:47:54 2024-03-06T17:47:54.165Z daemon INFO time="2024-03-06T11:47:54-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:47:54-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:47:54-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:47:58 2024-03-06T17:47:58.300Z daemon INFO time="2024-03-06T11:47:58-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:47:58-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:47:58-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:48:00 2024-03-06T17:48:00.409Z daemon INFO time="2024-03-06T11:48:00-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:48:00-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:48:00-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:49:11 2024-03-06T17:49:11.568Z daemon INFO time="2024-03-06T11:49:11-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+2024-03-06 11:49:11 2024-03-06T17:49:11.568Z daemon INFO time="2024-03-06T11:49:11-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:49:11-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:49:12 2024-03-06T17:49:12.749Z daemon INFO time="2024-03-06T11:49:12-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:49:12-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 11:49:12 2024-03-06T17:49:12.749Z daemon INFO time="2024-03-06T11:49:12-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:49:30 2024-03-06T17:49:30.341Z daemon INFO time="2024-03-06T11:49:30-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:49:30-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 11:49:30 2024-03-06T17:49:30.341Z daemon INFO time="2024-03-06T11:49:30-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:49:31 2024-03-06T17:49:31.506Z daemon INFO time="2024-03-06T11:49:31-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+2024-03-06 11:49:31 2024-03-06T17:49:31.506Z daemon INFO time="2024-03-06T11:49:31-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:49:31-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:50:14 2024-03-06T17:50:14.465Z daemon INFO time="2024-03-06T11:50:14-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:50:14-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 11:50:14 2024-03-06T17:50:14.465Z daemon INFO time="2024-03-06T11:50:14-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:50:16 2024-03-06T17:50:16.608Z daemon INFO time="2024-03-06T11:50:16-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:50:16-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:50:16-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:50:18 2024-03-06T17:50:18.707Z daemon INFO time="2024-03-06T11:50:18-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:50:18-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:50:18-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:50:21 2024-03-06T17:50:21.876Z daemon INFO time="2024-03-06T11:50:21-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:50:21-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:50:21-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:50:23 2024-03-06T17:50:23.051Z daemon INFO time="2024-03-06T11:50:23-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:50:23-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 11:50:23 2024-03-06T17:50:23.051Z daemon INFO time="2024-03-06T11:50:23-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:50:34 2024-03-06T17:50:34.413Z daemon INFO time="2024-03-06T11:50:34-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:50:34-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 11:50:34 2024-03-06T17:50:34.413Z daemon INFO time="2024-03-06T11:50:34-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:50:35 2024-03-06T17:50:35.599Z daemon INFO time="2024-03-06T11:50:35-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:50:35-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:50:35-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:50:38 2024-03-06T17:50:38.568Z daemon INFO time="2024-03-06T11:50:38-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:50:38-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 11:50:38 2024-03-06T17:50:38.568Z daemon INFO time="2024-03-06T11:50:38-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:50:39 2024-03-06T17:50:39.728Z daemon INFO time="2024-03-06T11:50:39-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+2024-03-06 11:50:39 2024-03-06T17:50:39.728Z daemon INFO time="2024-03-06T11:50:39-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:50:39-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:50:57 2024-03-06T17:50:57.385Z daemon INFO time="2024-03-06T11:50:57-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:50:57-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:50:57-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:50:59 2024-03-06T17:50:59.628Z daemon INFO time="2024-03-06T11:50:59-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:50:59-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:50:59-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:51:00 2024-03-06T17:51:00.873Z daemon INFO time="2024-03-06T11:51:00-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:51:00-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:51:00-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:51:02 2024-03-06T17:51:02.028Z daemon INFO time="2024-03-06T11:51:02-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:51:02-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:51:02-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:51:15 2024-03-06T17:51:15.839Z daemon INFO time="2024-03-06T11:51:15-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:51:15-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:51:15-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:51:17 2024-03-06T17:51:17.018Z daemon INFO time="2024-03-06T11:51:17-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:51:17-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 11:51:17 2024-03-06T17:51:17.018Z daemon INFO time="2024-03-06T11:51:17-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:51:30 2024-03-06T17:51:30.007Z daemon INFO time="2024-03-06T11:51:30-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:51:30-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 11:51:30 2024-03-06T17:51:30.007Z daemon INFO time="2024-03-06T11:51:30-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:51:31 2024-03-06T17:51:31.162Z daemon INFO time="2024-03-06T11:51:31-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:51:31-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:51:31-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:51:38 2024-03-06T17:51:38.198Z daemon INFO time="2024-03-06T11:51:38-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:51:38-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 11:51:38 2024-03-06T17:51:38.199Z daemon INFO time="2024-03-06T11:51:38-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:51:39 2024-03-06T17:51:39.378Z daemon INFO time="2024-03-06T11:51:39-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:51:39-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:51:39-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:51:41 2024-03-06T17:51:41.426Z daemon INFO time="2024-03-06T11:51:41-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:51:41-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:51:41-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 11:52:19 2024-03-06T17:52:19.489Z daemon INFO time="2024-03-06T11:52:19-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T11:52:19-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T11:52:19-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:25:07 2024-03-06T19:25:07.545Z daemon INFO time="2024-03-06T13:25:07-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+2024-03-06 13:25:07 2024-03-06T19:25:07.545Z daemon INFO time="2024-03-06T13:25:07-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:25:07-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:25:20 2024-03-06T19:25:20.404Z daemon INFO time="2024-03-06T13:25:20-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:25:20-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 13:25:20 2024-03-06T19:25:20.404Z daemon INFO time="2024-03-06T13:25:20-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:25:21 2024-03-06T19:25:21.558Z daemon INFO time="2024-03-06T13:25:21-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:25:21-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:25:21-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:25:30 2024-03-06T19:25:30.415Z daemon INFO time="2024-03-06T13:25:30-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+2024-03-06 13:25:30 2024-03-06T19:25:30.415Z daemon INFO time="2024-03-06T13:25:30-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:25:30-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:25:37 2024-03-06T19:25:37.272Z daemon INFO time="2024-03-06T13:25:37-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+2024-03-06 13:25:37 2024-03-06T19:25:37.272Z daemon INFO time="2024-03-06T13:25:37-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:25:37-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:25:44 2024-03-06T19:25:44.224Z daemon INFO time="2024-03-06T13:25:44-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:25:44-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 13:25:44 2024-03-06T19:25:44.224Z daemon INFO time="2024-03-06T13:25:44-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:25:48 2024-03-06T19:25:48.829Z daemon INFO time="2024-03-06T13:25:48-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:25:48-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 13:25:48 2024-03-06T19:25:48.829Z daemon INFO time="2024-03-06T13:25:48-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:27:57 2024-03-06T19:27:57.657Z daemon INFO time="2024-03-06T13:27:57-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:27:57-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 13:27:57 2024-03-06T19:27:57.657Z daemon INFO time="2024-03-06T13:27:57-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:27:58 2024-03-06T19:27:58.837Z daemon INFO time="2024-03-06T13:27:58-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:27:58-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 13:27:58 2024-03-06T19:27:58.837Z daemon INFO time="2024-03-06T13:27:58-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:28:22 2024-03-06T19:28:22.766Z daemon INFO time="2024-03-06T13:28:22-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:28:22-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:28:22-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:28:24 2024-03-06T19:28:24.628Z daemon INFO time="2024-03-06T13:28:24-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:28:24-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:28:24-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:28:25 2024-03-06T19:28:25.790Z daemon INFO time="2024-03-06T13:28:25-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:28:25-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:28:25-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:28:28 2024-03-06T19:28:28.147Z daemon INFO time="2024-03-06T13:28:28-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:28:28-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:28:28-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:28:29 2024-03-06T19:28:29.304Z daemon INFO time="2024-03-06T13:28:29-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:28:29-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:28:29-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:28:30 2024-03-06T19:28:30.903Z daemon INFO time="2024-03-06T13:28:30-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:28:30-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:28:30-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:28:32 2024-03-06T19:28:32.057Z daemon INFO time="2024-03-06T13:28:32-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:28:32-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:28:32-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:28:34 2024-03-06T19:28:34.299Z daemon INFO time="2024-03-06T13:28:34-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:28:34-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:28:34-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:28:36 2024-03-06T19:28:36.431Z daemon INFO time="2024-03-06T13:28:36-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:28:36-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:28:36-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:28:38 2024-03-06T19:28:38.516Z daemon INFO time="2024-03-06T13:28:38-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:28:38-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 13:28:38 2024-03-06T19:28:38.516Z daemon INFO time="2024-03-06T13:28:38-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:28:41 2024-03-06T19:28:41.206Z daemon INFO time="2024-03-06T13:28:41-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:28:41-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 13:28:41 2024-03-06T19:28:41.206Z daemon INFO time="2024-03-06T13:28:41-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:28:45 2024-03-06T19:28:45.765Z daemon INFO time="2024-03-06T13:28:45-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:28:45-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:28:45-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:28:46 2024-03-06T19:28:46.923Z daemon INFO time="2024-03-06T13:28:46-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:28:46-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:28:46-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:28:49 2024-03-06T19:28:49.525Z daemon INFO time="2024-03-06T13:28:49-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:28:49-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:28:49-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:28:51 2024-03-06T19:28:51.219Z daemon INFO time="2024-03-06T13:28:51-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:28:51-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:28:51-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:28:52 2024-03-06T19:28:52.374Z daemon INFO time="2024-03-06T13:28:52-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:28:52-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:28:52-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:01 2024-03-06T19:29:01.198Z daemon INFO time="2024-03-06T13:29:01-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:29:01-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:29:01-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:04 2024-03-06T19:29:04.343Z daemon INFO time="2024-03-06T13:29:04-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:29:04-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:29:04-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:08 2024-03-06T19:29:08.223Z daemon INFO time="2024-03-06T13:29:08-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:29:08-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 13:29:08 2024-03-06T19:29:08.223Z daemon INFO time="2024-03-06T13:29:08-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:09 2024-03-06T19:29:09.403Z daemon INFO time="2024-03-06T13:29:09-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:29:09-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:29:09-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:20 2024-03-06T19:29:20.850Z daemon INFO time="2024-03-06T13:29:20-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:29:20-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 13:29:20 2024-03-06T19:29:20.850Z daemon INFO time="2024-03-06T13:29:20-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:22 2024-03-06T19:29:22.008Z daemon INFO time="2024-03-06T13:29:22-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:29:22-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 13:29:22 2024-03-06T19:29:22.008Z daemon INFO time="2024-03-06T13:29:22-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:25 2024-03-06T19:29:25.610Z daemon INFO time="2024-03-06T13:29:25-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:29:25-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 13:29:25 2024-03-06T19:29:25.610Z daemon INFO time="2024-03-06T13:29:25-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:26 2024-03-06T19:29:26.787Z daemon INFO time="2024-03-06T13:29:26-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:29:26-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:29:26-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:28 2024-03-06T19:29:28.311Z daemon INFO time="2024-03-06T13:29:28-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:29:28-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:29:28-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:30 2024-03-06T19:29:30.401Z daemon INFO time="2024-03-06T13:29:30-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+2024-03-06 13:29:30 2024-03-06T19:29:30.401Z daemon INFO time="2024-03-06T13:29:30-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:29:30-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:31 2024-03-06T19:29:31.581Z daemon INFO time="2024-03-06T13:29:31-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:29:31-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:29:31-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:33 2024-03-06T19:29:33.071Z daemon INFO time="2024-03-06T13:29:33-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:29:33-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 13:29:33 2024-03-06T19:29:33.071Z daemon INFO time="2024-03-06T13:29:33-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:34 2024-03-06T19:29:34.227Z daemon INFO time="2024-03-06T13:29:34-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:29:34-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:29:34-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:36 2024-03-06T19:29:36.277Z daemon INFO time="2024-03-06T13:29:36-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+2024-03-06 13:29:36 2024-03-06T19:29:36.277Z daemon INFO time="2024-03-06T13:29:36-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:29:36-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:39 2024-03-06T19:29:39.552Z daemon INFO time="2024-03-06T13:29:39-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+2024-03-06 13:29:39 2024-03-06T19:29:39.552Z daemon INFO time="2024-03-06T13:29:39-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:29:39-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:41 2024-03-06T19:29:41.679Z daemon INFO time="2024-03-06T13:29:41-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:29:41-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:29:41-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:44 2024-03-06T19:29:44.277Z daemon INFO time="2024-03-06T13:29:44-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:29:44-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:29:44-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:46 2024-03-06T19:29:46.342Z daemon INFO time="2024-03-06T13:29:46-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:29:46-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:29:46-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:29:59 2024-03-06T19:29:59.351Z daemon INFO time="2024-03-06T13:29:59-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:29:59-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 13:29:59 2024-03-06T19:29:59.351Z daemon INFO time="2024-03-06T13:29:59-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:30:00 2024-03-06T19:30:00.507Z daemon INFO time="2024-03-06T13:30:00-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+2024-03-06 13:30:00 2024-03-06T19:30:00.507Z daemon INFO time="2024-03-06T13:30:00-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:30:00-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:30:03 2024-03-06T19:30:03.717Z daemon INFO time="2024-03-06T13:30:03-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+2024-03-06 13:30:03 2024-03-06T19:30:03.717Z daemon INFO time="2024-03-06T13:30:03-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 13:30:03 2024-03-06T19:30:03.717Z daemon INFO time="2024-03-06T13:30:03-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:30:04 2024-03-06T19:30:04.876Z daemon INFO time="2024-03-06T13:30:04-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:30:04-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2024-03-06 13:30:04 2024-03-06T19:30:04.877Z daemon INFO time="2024-03-06T13:30:04-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:30:11 2024-03-06T19:30:11.838Z daemon INFO time="2024-03-06T13:30:11-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/libraries location=ide
+time="2024-03-06T13:30:11-06:00" level=info msg="Adding libraries dir" dir=/home/irene/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-03-06T13:30:11-06:00" level=info msg="Adding libraries dir" dir=/home/irene/Arduino/libraries location=user
+2024-03-06 13:31:04 isTempSketch: true. Input was /tmp/.arduinoIDE-unsaved202426-1180-pgbgn.w2rwrn/sketch_mar6a
+2024-03-06 13:31:04 Ignored marking workspace as a closed sketch. The sketch was detected as temporary. Workspace URI: file:///tmp/.arduinoIDE-unsaved202426-1180-pgbgn.w2rwrn/sketch_mar6a.
+2024-03-06 13:31:10 isTempSketch: true. Input was /tmp/.arduinoIDE-unsaved202426-1180-pgbgn.w2rwrn/sketch_mar6a
+2024-03-06 13:31:10 Ignored marking workspace as a closed sketch. The sketch was detected as temporary. Workspace URI: file:///tmp/.arduinoIDE-unsaved202426-1180-pgbgn.w2rwrn/sketch_mar6a.
+2024-03-06 13:31:10 Closing channel on service path '/services/electron-window'.
+2024-03-06 13:31:10 Closing channel on service path '/services/ide-updater'.
+2024-03-06 13:31:10 Stored workspaces roots: 
+2024-03-06 13:31:10 No sketches were scheduled for deletion.

@@ -2,10 +2,10 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/irene/gits/Projects": "__default__profile__",
             "file:///home/irene/gits": "__default__profile__",
+            "file:///home/irene/gits/dot-files": "__default__profile__",
             "file:///home/irene/gits/Projects/PythonMain": "__default__profile__",
-            "file:///home/irene/gits/dot-files": "__default__profile__"
+            "file:///home/irene/gits/Projects": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -16,25 +16,28 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/irene/gits/dot-files"
+                "folderUri": "file:///home/irene/gits/Projects"
+            },
+            {
+                "folderUri": "file:///home/irene/gits/Projects/PythonMain"
             }
         ],
         "emptyWindows": [
             {
-                "backupFolder": "1706586508419"
+                "backupFolder": "1710692186573"
             }
         ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/irene/gits/dot-files",
-            "backupPath": "/home/irene/.config/Code - OSS/Backups/922831279480ec8a2fa7fcbfe1cba19f",
+            "folder": "file:///home/irene/gits/Projects",
+            "backupPath": "/home/irene/.config/Code - OSS/Backups/bdf205d2710c05f7d02c949f63859869",
             "uiState": {
                 "mode": 1,
                 "x": 9,
                 "y": 45,
-                "width": 1262,
-                "height": 746
+                "width": 1902,
+                "height": 1026
             }
         },
         "openedWindows": []
@@ -86,12 +89,12 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/irene/gits/dot-files",
-                                        "path": "/home/irene/gits/dot-files",
+                                        "external": "file:///home/irene/gits/Projects",
+                                        "path": "/home/irene/gits/Projects",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/gits/dot-files"
+                                    "label": "~/gits/Projects"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -116,128 +119,117 @@
                                     "label": "~/gits"
                                 },
                                 {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/irene/gits/Projects",
-                                        "path": "/home/irene/gits/Projects",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/gits/Projects"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///run/media/irene/ESD-USB/System%20Volume%20Information/IndexerVolumeGuid",
-                                        "path": "/run/media/irene/ESD-USB/System Volume Information/IndexerVolumeGuid",
+                                        "external": "file:///home/irene/Downloads/hack_the_box/starting_point_RandomCodee900.ovpn",
+                                        "path": "/home/irene/Downloads/hack_the_box/starting_point_RandomCodee900.ovpn",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/run/media/irene/ESD-USB/System Volume Information/IndexerVolumeGuid"
+                                    "label": "~/Downloads/hack_the_box/starting_point_RandomCodee900.ovpn"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/irene/Downloads/Games/logisim.desktop",
-                                        "path": "/home/irene/Downloads/Games/logisim.desktop",
+                                        "external": "file:///run/media/irene/6ED5-2DE5/.Trash-1000/info/Blorp.trashinfo",
+                                        "path": "/run/media/irene/6ED5-2DE5/.Trash-1000/info/Blorp.trashinfo",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Downloads/Games/logisim.desktop"
+                                    "label": "/run/media/irene/6ED5-2DE5/.Trash-1000/info/Blorp.trashinfo"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/irene/gits/Projects/PythonMain/waybar_change.py",
-                                        "path": "/home/irene/gits/Projects/PythonMain/waybar_change.py",
+                                        "external": "file:///run/media/irene/6ED5-2DE5/System%20Volume%20Information/IndexerVolumeGuid",
+                                        "path": "/run/media/irene/6ED5-2DE5/System Volume Information/IndexerVolumeGuid",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/gits/Projects/PythonMain/waybar_change.py"
+                                    "label": "/run/media/irene/6ED5-2DE5/System Volume Information/IndexerVolumeGuid"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/irene/Downloads/Games/Stuffed/README.md",
-                                        "path": "/home/irene/Downloads/Games/Stuffed/README.md",
+                                        "external": "file:///home/irene/Downloads/MotorControl-1.ino",
+                                        "path": "/home/irene/Downloads/MotorControl-1.ino",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Downloads/Games/Stuffed/README.md"
+                                    "label": "~/Downloads/MotorControl-1.ino"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/irene/Downloads/Games/PRIPRI/PRIPRI/HOW%20TO%20RUN%20GAME%21%21.txt",
-                                        "path": "/home/irene/Downloads/Games/PRIPRI/PRIPRI/HOW TO RUN GAME!!.txt",
+                                        "external": "file:///home/irene/Downloads/auth_log",
+                                        "path": "/home/irene/Downloads/auth_log",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Downloads/Games/PRIPRI/PRIPRI/HOW TO RUN GAME!!.txt"
+                                    "label": "~/Downloads/auth_log"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/irene/Downloads/Games/PRIPRI/PRIPRI/PRIPRI/readme_en.txt",
-                                        "path": "/home/irene/Downloads/Games/PRIPRI/PRIPRI/PRIPRI/readme_en.txt",
+                                        "external": "file:///home/irene/Downloads/rip-in-power-KM.jpg",
+                                        "path": "/home/irene/Downloads/rip-in-power-KM.jpg",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Downloads/Games/PRIPRI/PRIPRI/PRIPRI/readme_en.txt"
+                                    "label": "~/Downloads/rip-in-power-KM.jpg"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/irene/Ksp2.log",
-                                        "path": "/home/irene/Ksp2.log",
+                                        "external": "file:///home/irene/Downloads/chess_engines/gnuchess-6.2.9/INSTALL",
+                                        "path": "/home/irene/Downloads/chess_engines/gnuchess-6.2.9/INSTALL",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Ksp2.log"
+                                    "label": "~/Downloads/chess_engines/gnuchess-6.2.9/INSTALL"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/irene/.config/scripts/mediaplayer.py",
-                                        "path": "/home/irene/.config/scripts/mediaplayer.py",
+                                        "external": "file:///home/irene/Downloads/chess_engines/gnuchess-6.2.9/README",
+                                        "path": "/home/irene/Downloads/chess_engines/gnuchess-6.2.9/README",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/scripts/mediaplayer.py"
+                                    "label": "~/Downloads/chess_engines/gnuchess-6.2.9/README"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/irene/.python_history",
-                                        "path": "/home/irene/.python_history",
+                                        "external": "file:///home/irene/Downloads/chess_engines/stockfish/README.md",
+                                        "path": "/home/irene/Downloads/chess_engines/stockfish/README.md",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.python_history"
+                                    "label": "~/Downloads/chess_engines/stockfish/README.md"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/irene/.nmcli-history",
-                                        "path": "/home/irene/.nmcli-history",
+                                        "external": "file:///home/irene/.bash_history",
+                                        "path": "/home/irene/.bash_history",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.nmcli-history"
+                                    "label": "~/.bash_history"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -641,7 +633,12 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
+                                },
+                                {
+                                    "id": "toggle.toggleCustomTitleBar",
+                                    "label": "Custom Title Bar"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -659,6 +656,10 @@
                                                 "id": "workbench.action.activityBarLocation.side",
                                                 "label": "&&Side",
                                                 "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.activityBarLocation.top",
+                                                "label": "&&Top"
                                             },
                                             {
                                                 "id": "workbench.action.activityBarLocation.hide",
@@ -745,6 +746,10 @@
                                                 "checked": true
                                             },
                                             {
+                                                "id": "workbench.action.editorActionsTitleBar",
+                                                "label": "Title Bar"
+                                            },
+                                            {
                                                 "id": "workbench.action.hideEditorActions",
                                                 "label": "Hidden"
                                             }
@@ -766,7 +771,8 @@
                                 },
                                 {
                                     "id": "editor.action.toggleStickyScroll",
-                                    "label": "&&Sticky Scroll"
+                                    "label": "&&Sticky Scroll",
+                                    "checked": true
                                 },
                                 {
                                     "id": "editor.action.toggleRenderWhitespace",
@@ -902,6 +908,10 @@
                     {
                         "id": "workbench.view.extensions",
                         "label": "E&&xtensions"
+                    },
+                    {
+                        "id": "workbench.view.extension.test",
+                        "label": "T&&esting"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1224,6 +1234,10 @@
                                 {
                                     "id": "editor.debug.action.addLogPoint",
                                     "label": "&&Logpoint..."
+                                },
+                                {
+                                    "id": "editor.debug.action.triggerByBreakpoint",
+                                    "label": "&&Triggered Breakpoint..."
                                 }
                             ]
                         }
@@ -1260,8 +1274,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1602,6 +1615,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
+            "workbench.action.copyEditorToNewWindow": {
+                "label": "Ctrl+K O",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k o"
+            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1841,7 +1859,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 170,
+            "sideBarWidth": 260,
             "statusBarHeight": 22,
             "windowBorder": false
         }

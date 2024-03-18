@@ -1,0 +1,137 @@
+2024-03-18 07:11:34.874 [info] Extension host with pid 6067 started
+2024-03-18 07:11:34.917 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-18 07:11:34.969 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-03-18 07:11:34.977 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-18 07:11:34.988 [info] Eager extensions activated
+2024-03-18 07:11:34.991 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-18 07:11:34.993 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-18 07:11:45.677 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-18 07:11:45.679 [info] Extension host with pid 6067 exiting with code 0
+2024-03-18 07:11:46.888 [info] Extension host with pid 6172 started
+2024-03-18 07:11:46.888 [info] Skipping acquiring lock for /home/irene/.config/Code - OSS/User/workspaceStorage/ddd3c248db4c8fd5bc018ca1d5831f9c.
+2024-03-18 07:11:46.994 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-18 07:11:47.002 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-03-18 07:11:47.030 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-03-18 07:11:47.096 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2024-03-18 07:11:47.615 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-18 07:11:47.704 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-18 07:11:47.728 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-18 07:11:47.813 [info] Eager extensions activated
+2024-03-18 07:11:47.898 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-18 07:11:47.900 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-18 07:11:48.089 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-03-18 07:11:48.535 [error] Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at k (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:51400)
+	at Oc.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:44795)
+	at new Pk (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:24:500973)
+	at f (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1032729)
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1034619
+	at t.resolveInstance (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1034646)
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037678
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1038015
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037338
+	at v (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037370)
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037232
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037166
+	at Array.map (<anonymous>)
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037138
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1033977
+	at Array.reduce (<anonymous>)
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1033949
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1034276
+	at t.resolveInstance (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1034646)
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037678
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1038015
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037338
+	at v (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037370)
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1037232
+	at t.resolve (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1039202)
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1008175
+	at e._get (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1007544)
+	at e._getButThrowIfAsync (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1007604)
+	at e.get (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:1003299)
+	at Kp.get (/home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:17:35919)
+	at /home/irene/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:24:649097
+2024-03-18 07:11:48.641 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at k (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:51400)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:24146)
+	at T.activate (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:776051)
+	at /home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/irene/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2450)
+2024-03-18 07:13:11.866 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-18 07:13:11.877 [error] Canceled: Canceled
+	at new $ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:45885)
+	at s.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
+	at z.<computed>.T.charCodeAt.z.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
+	at l.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:184415)
+	at l.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:183853)
+	at f.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:183177)
+	at l.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:184954)
+	at l.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:183946)
+	at l.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:183853)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:21654)
+	at w.O [as value] (/usr/lib/code/extensions/git/dist/main.js:2:943479)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:962791)
+	at /usr/lib/code/extensions/git/dist/main.js:2:968825
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:968811)
+	at u.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:148:3704)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at u.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:945736)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at o (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at w.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:9882)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:7816
+	at Array.map (<anonymous>)
+	at w.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:7803)
+	at w.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:8076)
+	at o.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:9949)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:6374)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-03-18 07:13:11.878 [error] Canceled: Canceled
+	at new $ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:45885)
+	at s.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
+	at z.<computed>.T.charCodeAt.z.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
+	at l.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:184415)
+	at l.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:183853)
+	at f.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:183177)
+	at l.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:184954)
+	at l.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:183946)
+	at l.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:183853)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:21654)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/usr/lib/code/extensions/github/dist/extension.js:2:325214)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:326173
+	at w.value (/usr/lib/code/extensions/git/dist/main.js:2:1050811)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:962791)
+	at /usr/lib/code/extensions/git/dist/main.js:2:968825
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:968811)
+	at u.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:148:3704)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at u.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:945736)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at o (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at w.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:9882)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:7816
+	at Array.map (<anonymous>)
+	at w.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:7803)
+	at w.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:8076)
+	at o.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:9949)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:6374)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-03-18 07:13:11.881 [info] Extension host with pid 6172 exiting with code 0

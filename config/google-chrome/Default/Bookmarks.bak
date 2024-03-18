@@ -1,10 +1,10 @@
 {
-   "checksum": "9ff63a99fcd34b706bc9a4827622597e",
+   "checksum": "de8e93aaf77f2530305c52680e62d2d2",
    "roots": {
       "bookmark_bar": {
          "children": [ {
             "date_added": "13350626647906086",
-            "date_last_used": "0",
+            "date_last_used": "13353608743667469",
             "guid": "0355843b-3ed5-466c-a6e1-4072b3b1fc7f",
             "id": "5",
             "meta_info": {
@@ -13,10 +13,62 @@
             "name": "Dashboard",
             "type": "url",
             "url": "https://dmschools.instructure.com/"
+         }, {
+            "children": [ {
+               "date_added": "13353657427527751",
+               "date_last_used": "0",
+               "guid": "8138e089-a94f-4c31-a484-21e0edb6e032",
+               "id": "18",
+               "name": "Course Modules: Period 2 Acc Lang & Lit III S2",
+               "type": "url",
+               "url": "https://dmschools.instructure.com/courses/356523/modules"
+            }, {
+               "date_added": "13353657427527800",
+               "date_last_used": "0",
+               "guid": "0739b2ec-bf3a-42dc-8402-9fe989730c4d",
+               "id": "19",
+               "name": "Gatsby Project- Gatsby Argument WRITING PROMPT and Analysis rubric: Period 2 Acc Lang & Lit III S2",
+               "type": "url",
+               "url": "https://dmschools.instructure.com/courses/356523/pages/gatsby-project-gatsby-argument-writing-prompt-and-rubric?module_item_id=7861696"
+            }, {
+               "date_added": "13353657427527850",
+               "date_last_used": "0",
+               "guid": "b34ae3d5-6b39-4ef7-b66f-b5dd6124f14d",
+               "id": "20",
+               "name": "The American Dream Is Alive and Well | American Enterprise Institute - AEI",
+               "type": "url",
+               "url": "https://www.aei.org/articles/the-american-dream-is-alive-and-well/"
+            }, {
+               "date_added": "13353657427527881",
+               "date_last_used": "0",
+               "guid": "9e21b400-70e0-4459-b1d9-7fee3359b8d2",
+               "id": "21",
+               "name": "Gatsby_Final_Notes.docx",
+               "type": "url",
+               "url": "https://livedmpsk12ia-my.sharepoint.com/:w:/r/personal/652713_student_dmschools_org/_layouts/15/doc2.aspx?sourcedoc=%7B3d78dac2-d1d1-4161-8953-1facbf57f566%7D&action=edit"
+            } ],
+            "date_added": "13353657427526659",
+            "date_last_used": "0",
+            "date_modified": "13353657427527881",
+            "guid": "59187bcb-27fe-4b3e-8291-2a6049d6b988",
+            "id": "17",
+            "name": "New folder",
+            "type": "folder"
+         }, {
+            "date_added": "13353657433391809",
+            "date_last_used": "0",
+            "guid": "fc300ea5-b53a-43b0-ba8b-6f9515ad311a",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "What Is the American Dream? Examples and How to Measure It",
+            "type": "url",
+            "url": "https://www.investopedia.com/terms/a/american-dream.asp#:~:text=The%20term%20was%20coined%20by,according%20to%20ability%20or%20achievement.%22"
          } ],
          "date_added": "13350620930854712",
          "date_last_used": "0",
-         "date_modified": "13350626655304672",
+         "date_modified": "13353657433391809",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks bar",

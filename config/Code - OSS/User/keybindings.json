@@ -1,0 +1,12 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+; f",
+        "command": "-testing.runCurrentFile",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "f2 f3",
+        "command": "python.execInTerminal-icon"
+    }
+]

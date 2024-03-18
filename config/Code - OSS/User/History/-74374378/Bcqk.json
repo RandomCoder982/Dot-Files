@@ -1,0 +1,13 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "f2 f3",
+        "command": "testing.runCurrentFile",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+; f",
+        "command": "-testing.runCurrentFile",
+        "when": "editorTextFocus"
+    }
+]

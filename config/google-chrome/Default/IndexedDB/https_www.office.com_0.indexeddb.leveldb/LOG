@@ -1,0 +1,6 @@
+2024/03/05-12:42:15.321 41c Reusing MANIFEST /home/irene/.config/google-chrome/Default/IndexedDB/https_www.office.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/05-12:42:15.321 41c Recovering log #3
+2024/03/05-12:42:15.338 41c Reusing old log /home/irene/.config/google-chrome/Default/IndexedDB/https_www.office.com_0.indexeddb.leveldb/000003.log 
+2024/03/05-12:42:18.010 41b Level-0 table #5: started
+2024/03/05-12:42:18.037 41b Level-0 table #5: 2337570 bytes OK
+2024/03/05-12:42:18.043 41b Delete type=0 #3
